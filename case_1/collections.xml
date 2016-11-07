@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+	<collection>
+		<id>3</id>
+		<name>case_1_collection</name>
+		<reward>
+			<name>3</name>
+		</reward>
+		<time>15</time>
+		<caseId>case_1</caseId>
+		<price>500</price>
+		<suspect>kertis_nurse</suspect>
+		<evidenceposition>syrigne</evidenceposition>
+		<evidenceposition>body_morrou</evidenceposition>
+		<evidenceposition>flash_drive</evidenceposition>
+		<evidenceposition>video</evidenceposition>
+		<evidenceposition>medical_history</evidenceposition>
+	</collection>
+</data>
