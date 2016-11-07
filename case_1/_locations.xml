@@ -1,47 +1,48 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <data>
-<gameLocation>
+  
+  <gameLocation>
   	<name>room_hosp</name>
-	<roomProfile>room_hosp</roomProfile>
-	<displayName>Больничная палата</displayName>
-	<onEvent type="quest" status="started">3</onEvent>
-  </gameLocation>
+   <roomProfile>room_hosp</roomProfile>
+   <displayName>Больничная палата</displayName>
+   <onEvent type="quest" status="started">3</onEvent>
+ </gameLocation>
 
  <gameLocation>
  	<name>room_frost</name>
-	<roomProfile>room_frost</roomProfile>
-	<displayName>Кабинет врача</displayName>
-	<onEvent type="quest" status="started">1</onEvent>
-  </gameLocation>
+   <roomProfile>room_frost</roomProfile>
+   <displayName>Кабинет врача</displayName>
+   <onEvent type="quest" status="started">1</onEvent>
+ </gameLocation>
 
-  <gameLocation>
-  	<name>room_frost_zoom</name>
-  	<roomProfile>room_frost_zoom</roomProfile>
-  	<displayName>Кабинет врача ЗУМ</displayName>
-  	<onEvent type ="quest" status="started">5</onEvent>
-  </gameLocation>
+ <gameLocation>
+   <name>room_frost_zoom</name>
+   <roomProfile>room_frost_zoom</roomProfile>
+   <displayName>Кабинет врача ЗУМ</displayName>
+   <onEvent type ="quest" status="started">5</onEvent>
+ </gameLocation>
 
-  <gameLocation>
-  	<name>room_aphoteke</name>
-	<roomProfile>room_aphoteke</roomProfile>
-	<displayName>Аптека</displayName>
-	<onEvent type="quest" status="started">8</onEvent>
-  </gameLocation>
+ <gameLocation>
+   <name>room_aphoteke</name>
+   <roomProfile>room_aphoteke</roomProfile>
+   <displayName>Аптека</displayName>
+   <onEvent type="quest" status="started">8</onEvent>
+ </gameLocation>
 
-  <gameLocation>
-  	<name>room_security</name>
-  	<roomProfile>room_security</roomProfile>
-  	<displayName>Комната охраны</displayName>
-  	<onEvent type="quest" status="started">10</onEvent>
-  </gameLocation>
+ <gameLocation>
+   <name>room_security</name>
+   <roomProfile>room_security</roomProfile>
+   <displayName>Комната охраны</displayName>
+   <onEvent type="quest" status="started">10</onEvent>
+ </gameLocation>
 
 
-  <gameLocation>
-  	<name>room_auto</name>
-	<roomProfile>room_auto</roomProfile>
-	<displayName>Трасса</displayName>
-	<onEvent type="quest" status="started">17</onEvent>
-  </gameLocation>
-   
-  
+ <gameLocation>
+   <name>room_auto</name>
+   <roomProfile>room_auto</roomProfile>
+   <displayName>Трасса</displayName>
+   <onEvent type="quest" status="started">17</onEvent>
+ </gameLocation>
+ 
+ 
 </data>

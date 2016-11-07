@@ -5,7 +5,7 @@
 		<displayName>Flashdrive</displayName>
 		<description>Флешка найденная в лаборатории больницы</description>
 		<order>99</order>
-		<image>{=$root}/evidences/flashdrive</image>
+		<image>{=$root}/evidences/flashdrive.png</image>
 		<limit>99</limit>
 		<use>manual</use>
 		<buff></buff>
@@ -27,7 +27,7 @@
 		<displayName>Video</displayName>
 		<description>Видеозапись с камеры</description>
 		<order>99</order>
-		<image>{=$root}/evidences/Video</image>
+		<image>{=$root}/evidences/video.png</image>
 		<limit>99</limit>
 		<use>manual</use>
 		<buff></buff>
@@ -38,7 +38,7 @@
 		<displayName>medicalhistory</displayName>
 		<description>История болезни брата медсестры</description>
 		<order>99</order>
-		<image>{=$root}/evidences/medical_history</image>
+		<image>{=$root}/evidences/medical_history.png</image>
 		<limit>99</limit>
 		<use>manual</use>
 		<buff></buff>

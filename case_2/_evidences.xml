@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<evidence>
+		<id>1</id>
+		<name>audio</name>
+		<collectionId>case_2_collection</collectionId>
+		<slot>1</slot>
+		<final>false</final>
+		<item>small_coffe_cup</item>
+		<quest>12</quest>
+	</evidence>
+
+	<evidence>
+		<id>1</id>
+		<name>fakemoney</name>
+		<collectionId>case_2_collection</collectionId>
+		<slot>2</slot>
+		<final>false</final>
+		<item>small_coffe_cup</item>
+		<quest>17</quest>
+	</evidence>
+
+	<evidence>
+		<id>1</id>
+		<name>sleeve</name>
+		<collectionId>case_2_collection</collectionId>
+		<slot>3</slot>
+		<final>false</final>
+		<item>small_coffe_cup</item>
+		<quest>5</quest>
+	</evidence>
+
+	<evidence>
+		<id>1</id>
+		<name>earrings</name>
+		<collectionId>case_2_collection</collectionId>
+		<slot>4</slot>
+		<final>false</final>
+		<item>small_coffe_cup</item>
+		<quest>15</quest>
+	</evidence>
+
+	<evidence>
+		<id>1</id>
+		<name>paint</name>
+		<collectionId>case_2_collection</collectionId>
+		<slot>5</slot>
+		<final>false</final>
+		<item>small_coffe_cup</item>
+		<quest>9</quest>
+	</evidence>
+
+	<evidence>
+		<id>1</id>
+		<name>body_yacht</name>
+		<collectionId>case_2_collection</collectionId>
+		<slot>6</slot>
+		<final>false</final>
+		<item>small_coffe_cup</item>
+		<quest>1</quest>
+	</evidence>
+
+</data>

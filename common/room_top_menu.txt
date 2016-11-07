@@ -1,5 +1,0 @@
-﻿@room_top_menu
-
-#time_label
-timer_text:Время: {="%M:%0$2:0S", $roomScore.time}
-
