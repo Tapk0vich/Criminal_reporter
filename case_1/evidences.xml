@@ -1,2 +1,55 @@
 <?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+	<evidence>
+		<id>1</id>
+		<name>body_morrou</name>
+		<collectionId>case_1_collection</collectionId>
+		<slot>1</slot>
+		<final>false</final>
+		<item>body_morrou</item>
+		<quest>0</quest>
+	</evidence>
+
+	<evidence>
+		<id>1</id>
+		<name>syrigne</name>
+		<collectionId>case_1_collection</collectionId>
+		<slot>2</slot>
+		<final>true</final>
+		<item>syrigne</item>
+		<quest>0</quest>
+	</evidence>
+
+	<evidence>
+		<id>1</id>
+		<name>flash_drive</name>
+		<collectionId>case_1_collection</collectionId>
+		<slot>3</slot>
+		<final>false</final>
+		<item>dlash_drive</item>
+		<quest>0</quest>
+	</evidence>
+
+	<evidence>
+		<id>1</id>
+		<name>video</name>
+		<collectionId>case_1_collection</collectionId>
+		<slot>4</slot>
+		<final>false</final>
+		<item>video</item>
+		<quest>0</quest>
+	</evidence>
+
+	<evidence>
+		<id>1</id>
+		<name>medical_history</name>
+		<collectionId>case_1_collection</collectionId>
+		<slot>5</slot>
+		<final>false</final>
+		<item>medical_history</item>
+		<quest>0</quest>
+	</evidence>
+
+</data>
 

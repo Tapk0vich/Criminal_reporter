@@ -60,62 +60,6 @@
 		<buff></buff>
 	</item>
 
-	<!--        Case 1 -->
-	<item>
-		<name>flash_drive</name>
-		<displayName>Flashdrive</displayName>
-		<description>Флешка найденная в лаборатории больницы</description>
-		<order>99</order>
-		<image>{=$root}/evidences/flashdrive</image>
-		<limit>99</limit>
-		<use>manual</use>
-		<buff></buff>
-	</item>
-
-	<item>
-		<name>syringe</name>
-		<displayName>Syringe</displayName>
-		<description>Шприц найденный в теле доктора Морроу</description>
-		<order>99</order>
-		<image>{=$root}/evidences/Syringe</image>
-		<limit>99</limit>
-		<use>manual</use>
-		<buff></buff>
-	</item>
-
-	<item>
-		<name>video</name>
-		<displayName>Video</displayName>
-		<description>Видеозапись с камеры</description>
-		<order>99</order>
-		<image>{=$root}/evidences/Video</image>
-		<limit>99</limit>
-		<use>manual</use>
-		<buff></buff>
-	</item>
-
-	<item>
-		<name>medical_history</name>
-		<displayName>medicalhistory</displayName>
-		<description>История болезни брата медсестры</description>
-		<order>99</order>
-		<image>{=$root}/evidences/medical_history</image>
-		<limit>99</limit>
-		<use>manual</use>
-		<buff></buff>
-	</item>
-
-	<item>
-		<name>body_morrou</name>
-		<displayName>body</displayName>
-		<description>Тело Морроу</description>
-		<order>99</order>
-		<image>{=$root}/inventory_camera.png</image>
-		<limit>99</limit>
-		<use>manual</use>
-		<buff></buff>
-	</item>
-
 	<!-- ========================= Case 2 =================== -->
 
 	<item>

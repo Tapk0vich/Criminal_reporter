@@ -38,7 +38,7 @@
 		<evidenceposition>pen</evidenceposition>
 		<evidenceposition>blood knife1</evidenceposition>
 	</collection>
-
+<!--
 	<collection>
 		<id>3</id>
 		<name>case_1_collection</name>
@@ -74,5 +74,5 @@
 		<evidenceposition>body_yacht</evidenceposition>
 	</collection>
 
-
+-->
 </data>

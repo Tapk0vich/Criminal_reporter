@@ -36,12 +36,9 @@
  
   
   <!--Предметы-->
-  <include>{=$root}/_inventory.xml</include>
+  <include>{=$root}/_items.xml</include>
  
 
   <!--Диалоги-->
-  <include>{=$root}/_dialogs.xml</include>
-
-  <!-- Паззлы -->
- 
+  <include>{=$root}/_dialogs.xml</include> 
 </data>
