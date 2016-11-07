@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<research>
+		<id>1</id>
+		<name>morrou_autopsy</name>
+		<target type="evidence">body_morrou</target>
+		<displayName>displayName</displayName>
+		<duration>15</duration>
+		<price>200</price>
+	</research>
+
+	<research>
+		<id>2</id>
+		<name>case_1_syringe</name>
+		<displayname>displayname</displayname>
+		<target type="evidence">syringe</target>
+		<duration>15</duration>
+		<price>200</price>
+	</research>
+
+	<research>
+		<id>3</id>
+		<name>case_1_flashdrive</name>
+		<displayname>displayname</displayname>
+		<target type="evidence">flash_drive</target>
+		<duration>15</duration>
+		<price>250</price>
+	</research>
+
+	<research>
+		<id>4</id>
+		<name>case_1_finale</name>
+		<target type="collection">case_1_collection</target>
+		<displayName>displayName</displayName>
+		<duration>15</duration>
+		<price>150</price>
+	</research>
+	
+</data>

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <data>
+
 	<item>
 		<name>flash_drive</name>
 		<displayName>Flashdrive</displayName>
 		<description>Флешка найденная в лаборатории больницы</description>
 		<order>99</order>
-		<image>{=$root}/evidences/flashdrive.png</image>
+		<image>{=$root}/items/flashdrive.png</image>
 		<limit>99</limit>
 		<use>manual</use>
 		<buff></buff>
@@ -16,7 +17,7 @@
 		<displayName>syringe</displayName>
 		<description>Шприц найденный в теле доктора Морроу</description>
 		<order>99</order>
-		<image>{=$root}/evidences/syringe.png</image>
+		<image>{=$root}/items/syringe.png</image>
 		<limit>99</limit>
 		<use>manual</use>
 		<buff></buff>
@@ -27,7 +28,7 @@
 		<displayName>Video</displayName>
 		<description>Видеозапись с камеры</description>
 		<order>99</order>
-		<image>{=$root}/evidences/video.png</image>
+		<image>{=$root}/items/video.png</image>
 		<limit>99</limit>
 		<use>manual</use>
 		<buff></buff>
@@ -38,7 +39,7 @@
 		<displayName>medicalhistory</displayName>
 		<description>История болезни брата медсестры</description>
 		<order>99</order>
-		<image>{=$root}/evidences/medical_history.png</image>
+		<image>{=$root}/items/medicalhistory.png</image>
 		<limit>99</limit>
 		<use>manual</use>
 		<buff></buff>
@@ -49,9 +50,10 @@
 		<displayName>body</displayName>
 		<description>Тело Морроу</description>
 		<order>99</order>
-		<image>{=$root}/inventory_camera.png</image>
+		<image>{=$root}/items/morrou_autopsy.png</image>
 		<limit>99</limit>
 		<use>manual</use>
 		<buff></buff>
 	</item>
+
 </data>

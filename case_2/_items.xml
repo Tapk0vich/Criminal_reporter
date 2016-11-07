@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	
+	<item>
+		<name>fakemoney</name>
+		<displayName>fake money</displayName>
+		<description>Поддельная купюра</description>
+		<order>99</order>
+		<image>{=$root}/evidences/fakemoney.png</image>
+		<limit>99</limit>
+		<use>manual</use>
+		<buff></buff>
+	</item>
+
+	<item>
+		<name>sleeve</name>
+		<displayName>Sleeve</displayName>
+		<description>Гильза</description>
+		<order>99</order>
+		<image>{=$root}/evidences/sleeve.png</image>
+		<limit>99</limit>
+		<use>manual</use>
+		<buff></buff>
+	</item>
+
+	<item>
+		<name>earrings</name>
+		<displayName>Earrings</displayName>
+		<description>Сережки</description>
+		<order>99</order>
+		<image>{=$root}/evidences/earrings.png</image>
+		<limit>99</limit>
+		<use>manual</use>
+		<buff></buff>
+	</item>
+
+	<item>
+		<name>audio</name>
+		<displayName>earrings</displayName>
+		<description>Запись разговора</description>
+		<order>99</order>
+		<image>{=$root}/evidences/audio.png</image>
+		<limit>99</limit>
+		<use>manual</use>
+		<buff></buff>
+	</item>
+
+	<item>
+		<name>paint</name>
+		<displayName>Painted</displayName>
+		<description>Следы краски</description>
+		<order>99</order>
+		<image>{=$root}/evidences/paint.png</image>
+		<limit>99</limit>
+		<use>manual</use>
+		<buff></buff>
+	</item>
+
+	<item>
+		<name>body_yacht</name>
+		<displayName>body</displayName>
+		<description>тело</description>
+		<order>99</order>
+		<limit>99</limit>
+		<use>manual</use>
+		<buff></buff>
+		<image>{=$root}/juice.png</image>
+	</item>
+
+	<item>
+		<name>blood_sample</name>
+		<displayName>bloodsample</displayName>
+		<description>кровь</description>
+		<order>99</order>
+		<limit>99</limit>
+		<use>manual</use>
+		<buff></buff>
+		<image>{=$root}/juice.png</image>
+	</item>
+
+</data>

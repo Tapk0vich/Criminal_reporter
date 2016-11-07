@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<data>
+	
+	<research>
+		<id>1</id>
+		<name>case_2_autopsy</name>
+		<target type="evidence">body_yacht</target>
+		<displayName>displayName</displayName>
+		<duration>15</duration>
+		<price>150</price>
+	</research>
+
+	<research>
+		<id>2</id>
+		<name>case_2_paint</name>
+		<target type="evidence">paint</target>
+		<displayName>displayName</displayName>
+		<duration>15</duration>
+		<price>150</price>
+	</research>
+
+	<research>
+		<id>3</id>
+		<name>case_2_audio</name>
+		<target type="evidence">audio</target>
+		<duration>15</duration>
+		<price>150</price>
+	</research>
+
+	<research>
+		<id>4</id>
+		<name>case_2_fakemoney</name>
+		<target type="evidence">fakemoney</target>
+		<duration>15</duration>
+		<price>150</price>
+	</research>
+
+	<research>
+		<id>5</id>
+		<name>case_2_sleeve</name>
+		<target type="evidence">sleeve</target>
+		<duration>15</duration>
+		<price>150</price>
+	</research>
+
+	<research>
+		<id>6</id>
+		<name>case_2_final</name>
+		<target type="collection">case_2_collection</target>
+		<displayName>displayname</displayName>
+		<duration>15</duration>
+		<price>150</price>
+	</research>
+
+</data>
