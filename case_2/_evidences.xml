@@ -7,7 +7,7 @@
 		<collectionId>case_2_collection</collectionId>
 		<slot>1</slot>
 		<final>false</final>
-		<item>small_coffe_cup</item>
+		<item>audio</item>
 		<quest>12</quest>
 	</evidence>
 
@@ -17,7 +17,7 @@
 		<collectionId>case_2_collection</collectionId>
 		<slot>2</slot>
 		<final>false</final>
-		<item>small_coffe_cup</item>
+		<item>fakemoney</item>
 		<quest>17</quest>
 	</evidence>
 
@@ -27,17 +27,17 @@
 		<collectionId>case_2_collection</collectionId>
 		<slot>3</slot>
 		<final>false</final>
-		<item>small_coffe_cup</item>
+		<item>sleeve</item>
 		<quest>5</quest>
 	</evidence>
 
 	<evidence>
 		<id>1</id>
-		<name>earrings</name>
+		<name>earring</name>
 		<collectionId>case_2_collection</collectionId>
 		<slot>4</slot>
 		<final>false</final>
-		<item>small_coffe_cup</item>
+		<item>earring</item>
 		<quest>15</quest>
 	</evidence>
 
@@ -47,7 +47,7 @@
 		<collectionId>case_2_collection</collectionId>
 		<slot>5</slot>
 		<final>false</final>
-		<item>small_coffe_cup</item>
+		<item>paint</item>
 		<quest>9</quest>
 	</evidence>
 
@@ -57,7 +57,7 @@
 		<collectionId>case_2_collection</collectionId>
 		<slot>6</slot>
 		<final>false</final>
-		<item>small_coffe_cup</item>
+		<item>body_yacht</item>
 		<quest>1</quest>
 	</evidence>
 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<collection>
+		<id>1</id>
+		<name>case_2_collection</name>
+		<reward>
+			<name>3</name>
+		</reward>
+		<time>15</time>
+		<caseId>case_2</caseId>
+		<price>500</price>
+		<suspect>erl_bank</suspect>
+		<evidenceposition>audio</evidenceposition>
+		<evidenceposition>earrings</evidenceposition>
+		<evidenceposition>sleeve</evidenceposition>
+		<evidenceposition>fakemoney</evidenceposition>
+		<evidenceposition>paint</evidenceposition>
+		<evidenceposition>body_yacht</evidenceposition>
+	</collection>
+</data>

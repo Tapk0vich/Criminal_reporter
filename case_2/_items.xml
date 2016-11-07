@@ -24,11 +24,11 @@
 	</item>
 
 	<item>
-		<name>earrings</name>
+		<name>earring</name>
 		<displayName>Earrings</displayName>
 		<description>Сережки</description>
 		<order>99</order>
-		<image>{=$root}/evidences/earrings.png</image>
+		<image>{=$root}/evidences/earring.png</image>
 		<limit>99</limit>
 		<use>manual</use>
 		<buff></buff>
