@@ -13,10 +13,10 @@
 
 	<evidence>
 		<id>1</id>
-		<name>syrigne</name>
+		<name>syringe</name>
 		<collectionId>case_1_collection</collectionId>
 		<slot>2</slot>
-		<final>true</final>
+		<final>false</final>
 		<item>syringe</item>
 		<quest>0</quest>
 	</evidence>
