@@ -11,7 +11,7 @@
 		<caseId>case_1</caseId>
 		<price>500</price>
 		<suspect>kertis_nurse</suspect>
-		<evidenceposition>syrigne</evidenceposition>
+		<evidenceposition>syringe</evidenceposition>
 		<evidenceposition>body_morrou</evidenceposition>
 		<evidenceposition>flash_drive</evidenceposition>
 		<evidenceposition>video</evidenceposition>

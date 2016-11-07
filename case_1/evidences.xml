@@ -17,7 +17,7 @@
 		<collectionId>case_1_collection</collectionId>
 		<slot>2</slot>
 		<final>true</final>
-		<item>syrigne</item>
+		<item>syringe</item>
 		<quest>0</quest>
 	</evidence>
 
@@ -27,7 +27,7 @@
 		<collectionId>case_1_collection</collectionId>
 		<slot>3</slot>
 		<final>false</final>
-		<item>dlash_drive</item>
+		<item>flash_drive</item>
 		<quest>0</quest>
 	</evidence>
 

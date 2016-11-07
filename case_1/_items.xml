@@ -13,10 +13,10 @@
 
 	<item>
 		<name>syrigne</name>
-		<displayName>Syringe</displayName>
+		<displayName>syringe</displayName>
 		<description>Шприц найденный в теле доктора Морроу</description>
 		<order>99</order>
-		<image>{=$root}/evidences/Syringe</image>
+		<image>{=$root}/evidences/syringe.png</image>
 		<limit>99</limit>
 		<use>manual</use>
 		<buff></buff>

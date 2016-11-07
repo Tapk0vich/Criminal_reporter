@@ -34,11 +34,10 @@
     <!--Персонажи-->
   <include>{=$root}/_chars.xml</include>
  
-  
+
   <!--Предметы-->
   <include>{=$root}/_items.xml</include>
  
-
   <!--Диалоги-->
   <include>{=$root}/_dialogs.xml</include> 
 </data>
