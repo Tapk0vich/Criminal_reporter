@@ -1,0 +1,18 @@
+<data>
+	<fileItem type="flump" src="window_*.fla">
+		<exportClip src="window"/>
+		<exportClip src="simple_button"/>
+		<exportClip src="confirm_button"/>
+
+	</fileItem>
+ 	<fileItem type="flump" src="control_*.fla">
+  		<exportClip src="control"/>
+  		<exportClip src="control_full"/>
+ 	</fileItem>
+	
+	<fileItem type="file" src="*.png"/>
+	<fileItem type="file" src="_project.xml"/>
+	<fileItem type="file" src="i_*.xml"/>
+	<fileItem type="file" src="_text.xml"/>
+
+</data>

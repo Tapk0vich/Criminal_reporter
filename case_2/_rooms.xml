@@ -1,0 +1,71 @@
+ <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+ <data>
+ 	<room>
+ 		<name>room_pier</name>
+ 		<src>{=$root}/room_pier.xml</src>
+ 		<unlockCost>0</unlockCost>
+ 		<gameMode>words</gameMode>
+ 		<gameMode>shadows</gameMode>
+ 		<gameMode>night</gameMode>
+ 		<gameMode>twister</gameMode>
+ 		<shadows>{=$root}/x{=$scale_factor}/room_pier_shadows.zip</shadows>
+ 	</room>
+
+ 	<room>
+ 		<name>room_yachtclub</name>
+ 		<src>{=$root}/room_yachtclub.xml</src>
+ 		<unlockCost>0</unlockCost>
+ 		<gameMode>words</gameMode>
+ 		<gameMode>shadows</gameMode>
+ 		<gameMode>night</gameMode>
+ 		<gameMode>twister</gameMode>
+ 		<shadows>{=$root}/x{=$scale_factor}/room_yachtclub_shadows.zip</shadows>
+ 	</room>
+
+ 	<room>
+ 		<name>room_yacht</name>
+ 		<src>{=$root}/room_yacht.xml</src>
+ 		<unlockCost>0</unlockCost>
+ 		<gameMode>words</gameMode>
+ 		<gameMode>shadows</gameMode>
+ 		<gameMode>night</gameMode>
+ 		<gameMode>twister</gameMode>
+ 		<shadows>{=$root}/x{=$scale_factor}/room_yacht_shadows.zip</shadows>
+ 	</room>
+
+ 	<room>
+ 		<name>room_yachtcafe</name>
+ 		<src>{=$root}/room_yachtcafe.xml</src>
+ 		<unlockCost>0</unlockCost>
+ 		<gameMode>words</gameMode>
+ 		<gameMode>shadows</gameMode>
+ 		<gameMode>night</gameMode>
+ 		<gameMode>twister</gameMode>
+ 		<shadows>{=$root}/x{=$scale_factor}/room_yachtcafe_shadows.zip</shadows>
+ 	</room>
+
+ 	<room>
+ 		<name>room_yacht_zoom</name>
+ 		<src>{=$root}/room_yacht_zoom.xml</src>
+ 		<unlockCost>0</unlockCost>
+ 		<gameMode>words</gameMode>
+ 		<gameMode>shadows</gameMode>
+ 		<gameMode>night</gameMode>
+ 		<gameMode>twister</gameMode>
+ 		<shadows>{=$root}/x{=$scale_factor}/room_yacht_zoom_shadows.zip</shadows>
+ 	</room>
+
+ 	<room>
+ 		<name>room_yachtclub_zoom</name>
+ 		<src>{=$root}/room_yachtclub_zoom.xml</src>
+ 		<unlockCost>0</unlockCost>`
+ 		<gameMode>words</gameMode>
+ 		<gameMode>shadows</gameMode>
+ 		<gameMode>night</gameMode>
+ 		<gameMode>twister</gameMode>
+ 		<shadows>{=$root}/x{=$scale_factor}/room_yachtclub_zoom_shadows.zip</shadows>
+ 	</room>
+
+
+
+ </data>

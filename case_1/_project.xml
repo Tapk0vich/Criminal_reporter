@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--?xml-stylesheet type="text/css" href="./../css/case.css"?-->
+<data>
+  <varible>
+    <name>root</name>
+	<value>case_1</value>
+  </varible>
+  
+  <defaultPuzzle>puzzle_main</defaultPuzzle>
+
+  <!-- Флешка с картой города -->
+  <town>
+  	<name>default</name>
+    <src>{=$root}/map_town.xml</src>
+  </town>
+
+  <!-- Флешка с рабочим столом, на котором изображен прогресс -->
+  <desk>
+  	<name>default</name>
+    <src>{=$root}/case_desk.xml</src>
+  </desk>
+  
+  <!--Комнаты-->
+  <include>{=$root}/_rooms.xml</include>
+
+   <!--Обозначение хогов на карте-->
+  <include>{=$root}/_locations.xml</include>
+  
+
+   <!--Квесты-->
+  <include>{=$root}/_quests.xml</include>
+
+
+    <!--Персонажи-->
+  <include>{=$root}/_chars.xml</include>
+ 
+  
+  <!--Предметы-->
+  <include>{=$root}/_inventory.xml</include>
+ 
+
+  <!--Диалоги-->
+  <include>{=$root}/_dialogs.xml</include>
+
+  <!-- Паззлы -->
+ 
+</data>

@@ -1,0 +1,10 @@
+﻿@window_user_take_evidence_per_click
+
+#window_title
+text:Ура ты нашел улику!
+
+#time_label
+text:Время: {="%M:%0$2:0S", $time}
+
+#score_label
+text:Счет: {=$score}

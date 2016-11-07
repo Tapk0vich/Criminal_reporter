@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<data>
+  <gameLocation>
+  	<name>room_pier</name>
+   <roomProfile>room_pier</roomProfile>
+   <displayName>Пирс яхт клуба</displayName>
+   <onEvent type="quest" status="started">1</onEvent>
+ </gameLocation>
+
+ <gameLocation>
+ 	<name>room_yachtclub</name>
+   <roomProfile>room_yachtclub</roomProfile>
+   <displayName>Яхт-клуб</displayName>
+   <onEvent type="quest" status="started">2</onEvent>
+ </gameLocation>
+
+ <gameLocation>
+   <name>room_yacht</name>
+   <roomProfile>room_yacht</roomProfile>
+   <displayName>Яхта Стоува</displayName>
+   <onEvent type ="quest" status="started">5</onEvent>
+ </gameLocation>
+
+ <gameLocation>
+   <name>room_yachtcafe</name>
+   <roomProfile>room_yachtcafe</roomProfile>
+   <displayName>Плавучее кафе</displayName>
+   <onEvent type="quest" status="started">11</onEvent>
+ </gameLocation>
+
+ <gameLocation>
+   <name>room_yacht_zoom</name>
+   <roomProfile>room_yacht_zoom</roomProfile>
+   <displayName>Рубка яхты Стоува</displayName>
+   <onEvent type="quest" status="started">15</onEvent>
+ </gameLocation>
+
+ <gameLocation>
+   <name>room_yachtclub_zoom</name>
+   <roomProfile>room_yachtclub_zoom</roomProfile>
+   <displayName>Зум кабинета врача</displayName>
+   <onEvent type="quest" status="started">17</onEvent>
+ </gameLocation>
+
+</data>

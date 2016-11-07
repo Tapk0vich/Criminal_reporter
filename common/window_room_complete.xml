@@ -1,0 +1,50 @@
+<data>
+<source>common/{=$platform}/window_room_complete.zip</source><libraryItem class="window" libraryName="window">
+<text name="window_title" x="124" y="20.15" width="577.85" height="59.85" lineType="multiline" >
+<value name="text"><![CDATA[Room Completed!]]></value>
+<format name="face">Arial</format>
+<format name="size">50</format>
+<format name="fillColor">#1c436c</format>
+<format name="alignment">center</format>
+<format name="bold">false</format>
+<format name="italic">false</format>
+<property name="source"><![CDATA[window_title]]></property>
+</text>
+<text name="time_label" x="17.3" y="458.9" width="672.95" height="62.05" lineType="multiline" >
+<value name="text"><![CDATA[00:00:00]]></value>
+<format name="face">Arial</format>
+<format name="size">50</format>
+<format name="fillColor">#1c436c</format>
+<format name="alignment">center</format>
+<format name="bold">false</format>
+<format name="italic">false</format>
+<property name="source"><![CDATA[time_label]]></property>
+</text>
+<text name="score_label" x="17.3" y="530.9" width="674.4" height="62.05" lineType="multiline" >
+<value name="text"><![CDATA[Score:1000]]></value>
+<format name="face">Arial</format>
+<format name="size">50</format>
+<format name="fillColor">#1c436c</format>
+<format name="alignment">center</format>
+<format name="bold">false</format>
+<format name="italic">false</format>
+<property name="source"><![CDATA[score_label]]></property>
+</text>
+<element name="drop_list" libraryName="listboxPanel">
+<property name="ui_type"><![CDATA[listbox]]></property>
+</element><element name="bt_close" libraryName="buttons/bt_close">
+<property name="ui_type"><![CDATA[button]]></property>
+<property name="button_signal"><![CDATA[close]]></property>
+</element><element name="buttons_panel" libraryName="container">
+<property name="ui_type"><![CDATA[scalable_panel]]></property>
+<property name="h_align"><![CDATA[center]]></property>
+</element><element name="window_background" libraryName="bg">
+</element></libraryItem>
+<libraryItem libraryName="buttons/bt_close">
+<element name="_out" libraryName="buttons/bt close n">
+</element><element name="_over" libraryName="buttons/bt close h">
+</element><element name="_down" libraryName="buttons/bt close p">
+</element></libraryItem>
+<libraryItem libraryName="bg">
+<value name="scalingGrid" left="45.5" top="84" right="136.5" bottom="194"/></libraryItem>
+</data>

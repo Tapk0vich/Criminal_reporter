@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<data>
+
+<tutorial>
+ 	<onEvent type="InterviewEnd">2</onEvent>
+	<disposable>true</disposable>
+	<step>
+	   	<completionState>
+	   		<condition type="stack">
+	   			<index>0</index>
+	   		</condition>
+	   		<highlight type="item">
+	   		</highlight>
+	    </completionState>
+	</step>
+
+	<step>
+	   	<completionState>
+	   		<condition type="action">
+	   			<id>powerup</id>
+	   		</condition>
+	   		<highlight type="ui">
+	   			<id>btn_powerup</id>
+	   		</highlight>
+	    </completionState>
+	</step>
+</tutorial>
+
+</data>

@@ -1,0 +1,41 @@
+<data>
+	<playerProfile>
+		<!-- число едениц здоровья -->
+		<health>130</health>
+		<!-- скорость восстановления одной единицы здоровья в секундах -->
+		<healthPointRecoveryTime>60</healthPointRecoveryTime>
+	</playerProfile>
+	<experienceAfterLastLevel>200</experienceAfterLastLevel>
+	<userLevel>
+		<name>1</name>
+		<experience>55</experience>
+	</userLevel>
+	<userLevel>
+		<name>2</name>
+		<experience>60</experience>
+	</userLevel>
+	<userLevel>
+		<name>3</name>
+		<experience>70</experience>
+	</userLevel>
+	<userLevel>
+		<name>4</name>
+		<experience>80</experience>
+	</userLevel>
+	<userLevel>
+		<name>5</name>
+		<experience>90</experience>
+	</userLevel>
+	<userLevel>
+		<name>6</name>
+		<experience>100</experience>
+	</userLevel>
+	<userLevel>
+		<name>7</name>
+		<experience>110</experience>
+	</userLevel>
+	<userLevel>
+		<name>8</name>
+		<experience>120</experience>
+	</userLevel>
+</data>

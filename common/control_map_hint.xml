@@ -1,0 +1,87 @@
+<data>
+<source>common/{=$platform}/control_map_hint.zip</source><libraryItem class="control" libraryName="control">
+<element name="root" libraryName="hint">
+<property name="ui_type"><![CDATA[folding_panel]]></property>
+</element></libraryItem>
+<libraryItem libraryName="hint">
+<element name="bt_enter" libraryName="buttons/bt_enter">
+<property name="ui_type"><![CDATA[button]]></property>
+</element><text name="count" x="20" y="174" width="140" height="65.25" lineType="single line" >
+<value name="text"><![CDATA[3/8]]></value>
+<format name="face">MyriadPro*</format>
+<format name="size">50</format>
+<format name="fillColor">#1c436c</format>
+<format name="alignment">center</format>
+<format name="bold">false</format>
+<format name="italic">false</format>
+</text>
+<element name="status" libraryName="status">
+<property name="ui_type"><![CDATA[radial_progressbar]]></property>
+</element><element name="selected_mode_icon" libraryName="selected_mode">
+<property name="ui_type"><![CDATA[icon]]></property>
+</element><element name="modePanel" libraryName="roomModePanel">
+</element><element name="folding_bg" libraryName="bg">
+</element></libraryItem>
+<libraryItem libraryName="buttons/bt_enter">
+<text name="_label" x="120" y="18" width="300" height="113.4" lineType="single line" >
+<value name="text"><![CDATA[25]]></value>
+<format name="face">Verdana*</format>
+<format name="size">90</format>
+<format name="fillColor">#ffffff</format>
+<format name="alignment">center</format>
+<format name="bold">false</format>
+<format name="italic">false</format>
+</text>
+<element name="_out" libraryName="buttons/enter n">
+</element><element name="_over" libraryName="buttons/enter h">
+</element><element name="_down" libraryName="buttons/enter p">
+</element></libraryItem>
+<libraryItem libraryName="status">
+<element name="puzzle" libraryName="puzzle">
+</element><element name="radial_marker" libraryName="status2">
+</element><element name="status1" libraryName="status1">
+</element><element name="mask" libraryName="mask">
+</element></libraryItem>
+<libraryItem libraryName="selected_mode">
+<element name="Слой 1" libraryName="buttons/words n">
+</element><element name="Слой 1" libraryName="buttons/shadow n">
+</element><element name="Слой 1" libraryName="buttons/night n">
+</element><element name="Слой 1" libraryName="buttons/time n">
+</element><element name="Слой 1" libraryName="buttons/zoom n">
+</element></libraryItem>
+<libraryItem libraryName="roomModePanel">
+<element name="mode_words" libraryName="buttons/bt_words">
+<property name="ui_type"><![CDATA[button]]></property>
+</element><element name="mode_shadows" libraryName="buttons/bt_shadows">
+<property name="ui_type"><![CDATA[button]]></property>
+</element><element name="mode_night" libraryName="buttons/bt_night">
+<property name="ui_type"><![CDATA[button]]></property>
+</element><element name="mode_zoom" libraryName="buttons/bt_zoom">
+<property name="ui_type"><![CDATA[button]]></property>
+</element></libraryItem>
+<libraryItem libraryName="bg">
+<value name="scalingGrid" left="45.5" top="62" right="136.5" bottom="186"/></libraryItem>
+<libraryItem libraryName="buttons/bt_words">
+<element name="_out" libraryName="buttons/words n">
+</element><element name="_over" libraryName="buttons/words h">
+</element><element name="_down" libraryName="buttons/words p">
+</element><element name="_disable" libraryName="buttons/words d">
+</element></libraryItem>
+<libraryItem libraryName="buttons/bt_shadows">
+<element name="_out" libraryName="buttons/shadow n">
+</element><element name="_over" libraryName="buttons/shadow h">
+</element><element name="_down" libraryName="buttons/shadow p">
+</element><element name="_disable" libraryName="buttons/shadow d">
+</element></libraryItem>
+<libraryItem libraryName="buttons/bt_night">
+<element name="_out" libraryName="buttons/night h">
+</element><element name="_over" libraryName="buttons/night h">
+</element><element name="_down" libraryName="buttons/night p">
+</element><element name="_disable" libraryName="buttons/night d">
+</element></libraryItem>
+<libraryItem libraryName="buttons/bt_zoom">
+<element name="_out" libraryName="buttons/zoom n">
+</element><element name="_over" libraryName="buttons/zoom h">
+</element><element name="_down" libraryName="buttons/zoom p">
+</element></libraryItem>
+</data>

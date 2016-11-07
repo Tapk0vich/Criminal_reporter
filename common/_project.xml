@@ -1,0 +1,128 @@
+<data>
+  <varible>
+    <name>root</name>
+	<value>common</value>
+  </varible>
+
+  <include>{=$root}/_project_roomConfig.xml</include>
+  <include>{=$root}/_project_playerProfile.xml</include>
+  <include>{=$root}/_project_buffs.xml</include>
+  <include>{=$root}/_project_powerup.xml</include>
+  <include>{=$root}/_project_items.xml</include>
+  <include>{=$root}/_project_categories.xml</include>
+  <include>{=$root}/_project_currencies.xml</include>
+  <include>{=$root}/_project_collections.xml</include>
+  <include>{=$root}/_project_evidence.xml</include>
+   <include>{=$root}/_tutorial.xml</include>
+  <case>
+    <name>case_1</name>
+    <displayName>Case one</displayName>
+    <src>case_1</src>
+    <state>active</state>
+  <unlockCondition type="level">0</unlockCondition>
+  <reward_state>
+      <score>3</score>
+      <disable type="interval">0.01
+      </disable>
+    </reward_state>
+    <reward_state>
+      <score>2</score>
+      <disable type="interval">1
+      </disable>
+    </reward_state>
+    <reward_state>
+      <score>1</score>
+      <disable type="interval">2
+      </disable>
+    </reward_state>
+    <reward_state>
+      <score>0</score>
+    </reward_state>
+  </case>
+  
+  <!-- -->
+  <inventory category="currency">
+	<name>common_coins</name>
+  </inventory>
+
+  <inventory category="currency">
+	<name>special_coins</name>
+  </inventory>
+
+  <!-- -->
+  <inventory category="inventory">
+	<name>small_coffee_cup</name>
+	<limit>99</limit>
+  </inventory>
+  <inventory category="inventory">
+	<name>coffee_cup</name>
+	<limit>99</limit>
+  </inventory>
+  <inventory category="inventory">
+	<name>big_coffee_cup</name>
+	<limit>99</limit>
+  </inventory>
+
+  <storeItem type="inventory">
+	<name>small_coffee_cup</name>
+	<inventoryItem>small_coffee_cup</inventoryItem>
+	<price>
+		<currency>common_coins</currency>
+		<amount>2</amount>
+	</price>
+  </storeItem>
+
+  <storeItem type="inventory">
+	<name>coffee_cup</name>
+	<inventoryItem>coffee_cup</inventoryItem>
+	<price>
+		<currency>common_coins</currency>
+		<amount>5</amount>
+	</price>
+  </storeItem>
+
+  <storeItem type="inventory">
+	<name>big_coffee_cup</name>
+	<inventoryItem>big_coffee_cup</inventoryItem>
+	<price>
+		<currency>common_coins</currency>
+		<amount>7</amount>
+	</price>
+  </storeItem>
+
+  <!-- персонажи -->
+  <character>
+	<name>betty_hope</name>
+	<displayName>Бетти Хоп</displayName>
+	<characterSource>{=$root}/x{=$scale_factor}/character_{=$asset_name}.zip</characterSource>
+  </character>
+
+  <character>
+	<name>mailse_karter</name>
+	<displayName>Полицейский Картер</displayName>
+	<characterSource>{=$root}/x{=$scale_factor}/character_{=$asset_name}.zip</characterSource>
+  </character>
+  
+  <character>
+	<name>nurse</name>
+	<displayName>Медсестра</displayName>
+	<characterSource>{=$root}/x{=$scale_factor}/character_{=$asset_name}.zip</characterSource>
+  </character>
+  <!-- предметы инвентаря поверапы -->
+  <inventory category="powerup">
+    <name>small_lamp</name>
+    <limit>5</limit>
+    <picture>{=$root}/inventory_camera.png</picture>
+  </inventory>
+  <inventory category="powerup">
+    <name>big_lamp</name>
+    <limit>5</limit>
+    <picture>{=$root}/inventory_camera.png</picture>
+  </inventory>
+  <inventory category="powerup">
+    <name>laser</name>
+    <limit>5</limit>
+    <picture>{=$root}/inventory_camera.png</picture>
+  </inventory>
+
+</data>

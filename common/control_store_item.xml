@@ -1,0 +1,69 @@
+<data>
+<source>common/{=$platform}/control_store_item.zip</source><libraryItem class="control" libraryName="Control">
+<element name="buttons_container" libraryName="container">
+<property name="ui_type"><![CDATA[ui_container]]></property>
+</element><element name="image" libraryName="item">
+<property name="ui_type"><![CDATA[image]]></property>
+</element><element name="btn_buy" libraryName="buttons/simple_button">
+<property name="ui_type"><![CDATA[button]]></property>
+</element><element name="price" libraryName="price">
+<property name="ui_type"><![CDATA[currency_view]]></property>
+</element><text name="tf_amount" x="693.55" y="468.5" width="217.95" height="117.95" lineType="multiline" >
+<value name="text"><![CDATA[amount]]></value>
+<format name="face">Arial</format>
+<format name="size">50</format>
+<format name="fillColor">#1c436c</format>
+<format name="alignment">center</format>
+<format name="bold">false</format>
+<format name="italic">false</format>
+</text>
+<text name="tf_header" x="266.15" y="80.75" width="400" height="65.85" lineType="multiline" >
+<value name="text"><![CDATA[Header text.]]></value>
+<format name="face">Arial</format>
+<format name="size">50</format>
+<format name="fillColor">#1c436c</format>
+<format name="alignment">center</format>
+<format name="bold">false</format>
+<format name="italic">false</format>
+</text>
+<element name="panel_bg" libraryName="bg">
+</element></libraryItem>
+<libraryItem libraryName="container">
+<element name="container" libraryName="cont">
+</element></libraryItem>
+<libraryItem libraryName="item">
+<shape type="rect" name="image_bounds" x="-9.65" y="0.95" width="322.9" height="205.85"/></libraryItem>
+<libraryItem libraryName="buttons/simple_button">
+<element name="simple_button" libraryName="buttons/ bt_cancel">
+<property name="ui_type"><![CDATA[button]]></property>
+</element></libraryItem>
+<libraryItem libraryName="price">
+<element name="image" libraryName="currency_image">
+<property name="ui_type"><![CDATA[image]]></property>
+</element><text name="value" x="168" y="21" width="376.95" height="114" lineType="single line" >
+<value name="text"><![CDATA[99999]]></value>
+<format name="face">Times New Roman</format>
+<format name="size">96</format>
+<format name="fillColor">#999999</format>
+<format name="alignment">center</format>
+<format name="bold">false</format>
+<format name="italic">false</format>
+</text>
+<shape type="rect" name="currency_bounds" x="0" y="0" width="550" height="150"/></libraryItem>
+<libraryItem libraryName="buttons/ bt_cancel">
+<text name="_label" x="120" y="18" width="300" height="104.5" lineType="single line" >
+<value name="text"><![CDATA[25]]></value>
+<format name="face">Arial</format>
+<format name="size">90</format>
+<format name="fillColor">#ffffff</format>
+<format name="alignment">center</format>
+<format name="bold">false</format>
+<format name="italic">false</format>
+</text>
+<element name="_out" libraryName="buttons/cancel n">
+</element><element name="_over" libraryName="buttons/cancel h">
+</element><element name="_down" libraryName="buttons/cancel p">
+</element></libraryItem>
+<libraryItem libraryName="currency_image">
+<shape type="rect" name="image_bounds" x="0.85" y="0.4" width="130" height="130"/></libraryItem>
+</data>

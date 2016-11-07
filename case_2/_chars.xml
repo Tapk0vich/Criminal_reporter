@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<data>
+	<character>
+		<name>betty_hope</name>
+		<displayName>Betty Hope</displayName>
+		<characterSource>{=$root}/x{=$scale_factor}/character_{=$asset_name}.zip</characterSource>
+	</character>
+
+	<character>
+		<name>palmer_yachtowner</name>
+		<displayName>Шон Палмер</displayName>
+		<characterSource>{=$root}/x{=$scale_factor}/character_incognito.zip</characterSource>
+	</character>
+
+	<character>
+		<name>erl_bank</name>
+		<displayName>Эрл Ниджер</displayName>
+		<characterSource>{=$root}/x{=$scale_factor}/character_incognito.zip</characterSource>
+	</character>
+
+	<character>
+		<name>cori_exgf</name>
+		<displayName>Кори Нортон</displayName>
+		<characterSource>{=$root}/x{=$scale_factor}/character_incognito.zip</characterSource>
+	</character>
+
+	<character>
+		<name>stouv_sailor</name>
+		<displayName>Джош Стоув</displayName>
+		<characterSource>{=$root}/x{=$scale_factor}/character_incognito.zip</characterSource>
+	</character>
+
+	<character>
+		<name>karter_detective	</name>
+		<displayName>Майлз Картер</displayName>
+		<characterSource>{=$root}/x{=$scale_factor}/character_{=$asset_name}.zip</characterSource>
+	</character>
+
+	<character>
+		<name>edward_redactor</name>
+		<displayName>Эдвард Эмерсон</displayName>
+		<characterSource>{=$root}/x{=$scale_factor}/character_incognito.zip</characterSource>
+	</character>
+
+	<character>
+		<name>Робин Деккер</name>
+		<displayName></displayName>
+		<characterSource>{=$root}/x{=$scale_factor}/character_incognito.zip</characterSource>
+	</character>
+
+</data>
+

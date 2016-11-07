@@ -1,0 +1,12 @@
+<data>
+<source>common/{=$platform}/window_puzzle.zip</source><libraryItem class="window" libraryName="window">
+<element name="bt_close" libraryName="buttons/bt_close">
+<property name="ui_type"><![CDATA[button]]></property>
+<property name="button_signal"><![CDATA[close]]></property>
+</element></libraryItem>
+<libraryItem libraryName="buttons/bt_close">
+<element name="_out" libraryName="buttons/bt close n">
+</element><element name="_over" libraryName="buttons/bt close h">
+</element><element name="_down" libraryName="buttons/bt close p">
+</element></libraryItem>
+</data>

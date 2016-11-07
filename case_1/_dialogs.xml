@@ -1,0 +1,590 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+  <dialog>
+    <name>1</name>
+    <onEvent type="quest" status="started">1</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>curtis_nurse</character>
+      <message>Мисс? Доброе утро. Доктор Мороу хотел с вами поговорить - он получил результаты томографии.</message>
+    </replic>
+  </dialog>
+
+  <dialog>
+    <name>2</name>
+    <onEvent type="task" status="completed">1:1</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>betty_hope</character>
+      <message>Доктор? О нет! Он же не дышит...</message>
+    </replic>
+  </dialog>
+
+  <dialog>
+    <name>4</name>
+    <onEvent type="task" status="started">2:1</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>morrou</character>
+      <message>Нет, мне неьзя сейчас расклеиваться. Подумаешь, туман перед глазами. Стоп, кто здесь?</message>
+    </replic>
+  </dialog>
+
+  <dialog>
+    <name>4</name>
+    <onEvent type="task" status="completed">2:1</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>morrou</character>
+      <message> Я же просил не беспокоить меня несколько часов. Хотя кофе очень кстати. Будем считать, что я принял ваше раскаяние.</message>
+    </replic>
+  </dialog>
+
+  <dialog>
+    <name>5</name>
+    <onEvent type="quest" status="completed">2</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>frost</character>
+      <message>Вот так, просыпайтесь, мисс Хоуп.</message>
+    </replic>
+    <replic>
+      <character>betty_hope</character>
+      <message>Я ничего не понимаю. Доктор Мороу жив? Он с кем-то говорил...</message>
+    </replic>
+    <replic>
+      <character>frost</character>
+      <message>Вам почудилось, мисс. Доктор мертв. А у вас был шок.</message>
+    </replic>
+  </dialog>
+
+  <dialog>
+    <name>6</name>
+    <onEvent type="quest" status="started">3</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>betty_hope</character>
+      <message>Доктор, вы не подскажете, Джефри Морган еще работает? Он друг моего жениха, я хотела бы с ним встретится.</message>
+    </replic>
+  </dialog>
+
+  <dialog>
+    <name>7</name>
+    <onEvent type="task" status="completed">3:1</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>morgan</character>
+      <message>Хоуп, меня просили зайти. Что тебе взбрело в голову?</message>
+    </replic>
+    <replic>
+      <character>betty_hope</character>
+      <message>А тебе не сказали?</message>
+    </replic>
+    <replic>
+      <character>morgan</character>
+      <message>Не думаю, что в свете последних событий ты вспомнила обо мне из-за Чарльза. Тем более, что мы в последний раз виделись хорошо если месяц назад. И?</message>
+    </replic>
+    <replic>
+      <character>betty_hope</character>
+      <message>Ты ведь будешь проводить вскрытие доктора Мороу? Я хочу узнать причину смерти.</message>
+    </replic>
+    <replic>
+      <character>morgan</character>
+      <message>Позволь уточнить, ты собираешься вмешаться в полицейское расследование? И просишь меня о содействия в этой, не похожей на легальную, затее? Хм, договорись. Я передам тебе результаты аутопсии.</message>
+    </replic>
+  </dialog>
+
+  <dialog>
+    <name>8</name>
+    <onEvent type="task" status="completed">4:1</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>morgan</character>
+      <message>Причина смерти - остановка сердца. Сама по себе подозрений не вызывает, но на шее, чуть выше ворота рубашки, след от укола. Не слишком аккуратная работа, начал появляться синяк.</message>
+    </replic>
+    <replic>
+      <character>betty_hope</character>
+      <message>Что ему могли ввести?</message>
+    </replic>
+    <replic>
+      <character>morgan</character>
+      <message>Я не пророк. Подумай сама.</message>
+    </replic>
+  </dialog>
+
+  <dialog>
+    <name>9</name>
+    <onEvent type="quest" status="started">5</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>betty_hope</character>
+      <message> Придумать я точно ничего не смогу, но стоит еще раз осмотреть кабинет.</message>
+    </replic>
+  </dialog>
+
+  <dialog>
+    <name>10</name>
+    <onEvent type="task" status="completed">5:1</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>karter_detective</character>
+      <message>Надeюсь, вы еще не успели оставить свои отпечатки на вещественном доказательстве, мисс.</message>
+    </replic>
+    <replic>
+      <character>betty_hope</character>
+      <message>Конечно, нет. Но я не ожидала увидеть вас, детектив.</message>
+    </replic>
+    <replic>
+      <character>karter_detective</character>
+      <message>Это взаимно.</message>
+    </replic>
+  </dialog>
+
+  <dialog>
+    <name>11</name>
+    <onEvent type="task" status="completed">6:1</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>morgan</character>
+      <message>В шприце отчетливые следы адреналина, как я и ожидал. Большая доза привела к остановке сердца.</message>
+    </replic>
+  </dialog>
+
+  <dialog>
+    <name>12</name>
+    <onEvent type="task" status="completed">7:1</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>betty_hope</character>
+      <message>Вам удалось найти отпечатки на оружие убийства?</message>
+    </replic>
+    <replic>
+      <character>karter_detective</character>
+      <message>Я по-прежнему не понимаю, почему вас это так интересует.</message>
+    </replic>
+    <replic>
+      <character>betty_hope</character>
+      <message>Я просто хочу помочь.</message>
+    </replic>
+    <replic>
+      <character>karter_detective</character>
+      <message>Сомневаюсь, что вам это удасться. На шприце обнаружены отпечатки доктора Фрост. Надеюсь, вы не будете злоупотреблять этой информацией.</message>
+    </replic>
+  </dialog>
+
+  <dialog>
+    <name>13</name>
+    <onEvent type="quest" status="started">8</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>betty_hope</character>
+      <message>Доктор Фрост? Но ей-то это зачем? Возможно, кто-то из персонала знает больше.</message>
+    </replic>
+  </dialog>
+
+  <dialog>
+    <name>14</name>
+    <onEvent type="task" status="completed">8:1</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>betty_hope</character>
+      <message>Мисс Кертис? Вы выглядите обеспокоенной.</message>
+    </replic>
+    <replic>
+      <character>curtis_nurse</character>
+      <message>Сложно не переживать, когда вокруг такое.</message>
+    </replic>
+    <replic>
+      <character>betty_hope</character>
+      <message>Возможно, я могу помочь?</message>
+    </replic>
+    <replic>
+      <character>curtis_nurse</character>
+      <message>Вы так добры. Я только что говорила с детективом. Вспомнила, как доктор Мороу и доктор Фрост ужасно поругались на днях. Страшно думать, что из-за этого все могло сложиться так.</message>
+    </replic>
+    <replic>
+      <character>betty_hope</character>
+      <message>Вы правильно сделали, что были откровенны с полицией.Что поссорило докторов?</message>
+    </replic>
+    <replic>
+      <character>curtis_nurse</character>
+      <message>Я не слишком-то вслушивалась - начальство, как-никак. Вроде бы, что-то о должности заведующего отделением. Доктору Фрост давно ее пророчат, да все мимо</message>
+    </replic>
+    <replic>
+      <character>betty_hope</character>
+      <message>А вот это уже интересно.</message>
+    </replic>
+  </dialog>
+
+  <dialog>
+    <name>15</name>
+    <onEvent type="quest" status="started">9</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>betty_hope</character>
+      <message>Говорят, что преступники возвращаются на места преступлений. Доктор Фрост, что вы делаете в кабинете?</message>
+    </replic>
+  </dialog>
+
+  <dialog>
+    <name>16</name>
+    <onEvent type="task" status="started">9:1</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>frost</character>
+      <message>Полиция согласилась снять оцепление - все-таки это рабочий кабинет, и здесь много необходимой для работы больницы документации.</message>
+    </replic>
+  </dialog>
+
+  <dialog>
+    <name>17</name>
+    <onEvent type="task" status="completed">9:1</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>betty_hope</character>
+      <message>Удивительно, что именно вас я встречаю здесь. Ведь на орудие убийства нашли ваши отпечатки.</message>
+    </replic>
+    <replic>
+      <character>frost</character>
+      <message>Мои? Я понимаю, почему могли возникнуть подозрения. Но позвольте вас уверить - я не имею отношения к этой трагедии.</message>
+    </replic>
+    <replic>
+      <character>betty_hope</character>
+      <message>А где вы были этим утром? Вы не обязаны отвечать, но полиция все равно задаст этот вопрос.</message>
+    </replic>
+    <replic>
+      <character>frost</character>
+      <message>Я была у пациента. Майкл Кертис восстанавливается после серьезной аварии. К сожалению, его мучают сильные боли, и я бы не хотела, чтобы его беспокоили, но мое желание вряд ли будет иметь вес в этом вопросе.      </message>
+    </replic>
+  </dialog>
+
+  <dialog>
+    <name>18</name>
+    <onEvent type="quest" status="started">10</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>betty_hope</character>
+      <message>Выходит, у доктора Фрост алиби. Но убийца должен был оставить хоть какой-то след.</message>
+    </replic>
+  </dialog>
+
+  <dialog>
+    <name>19</name>
+    <onEvent type="task" status="started">10:1</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>karter_detective</character>
+      <message>Мисс Хоуп, вас ничуть не смутила табличка “служебное помещение” на двери?</message>
+    </replic>
+    <replic>
+      <character>betty_hope</character>
+      <message>Та, на которой подписано “посторонним не входить”? Не заметила ее.</message>
+    </replic>
+    <replic>
+      <character>karter_detective</character>
+      <message>Что вы здесь делаете?</message>
+    </replic>
+    <replic>
+      <character>betty_hope</character>
+      <message>Смотрю запись с камеры в коридоре, в обзор которой попадает дверь кабинета. Смотрите, здесь не видно лица, но это определенно форма медсестры, а не врача.</message>
+    </replic>
+  </dialog>
+
+  <dialog>
+    <name>20</name>
+    <onEvent type="task" status="completed">10:1</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>karter_detective</character>
+      <message>Благодарю за помощь, а теперь вернитесь в палату, и оставьте расследование полиции. Это не ваша забота, мисс.</message>
+    </replic>
+  </dialog>
+  <dialog>
+    <name>21</name>
+    <onEvent type="quest" status="started">11</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>betty_hope</character>
+      <message>Детектив Картер - форменный зануда. Но его можно понять.</message>
+    </replic>
+  </dialog>
+  <dialog>
+    <name>22</name>
+    <onEvent type="task" status="started">11:1</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>betty_hope</character>
+      <message>Адреналин - не яд, достать его в больнице куда проще. На орудии убийства отпечатки только Фрост, но у нее алиби. Получается, убийца забрал использованный шприц, и знал, кого подставляет. Но он должен был не оставить своих.</message>
+    </replic>
+  </dialog>
+
+  <dialog>
+    <name>23</name>
+    <onEvent type="task" status="completed">11:1</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>morgan</character>
+      <message>Мозговой штурм, Хоуп? Если заскучала, могу занять тебя загадкой непарной перчатки.</message>
+    </replic>
+    <replic>
+      <character>betty_hope</character>
+      <message>О чем ты?</message>
+    </replic>
+    <replic>
+      <character>morgan</character>
+      <message>Вечером оставил в лаборатории пару медицинских перчаток, чтобы утром не брать новые для продолжения эксперимента. Сегодня обнаружил там только одну.</message>
+    </replic>
+  </dialog>
+  <dialog>
+    <name>24</name>
+    <onEvent type="quest" status="started">12</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>betty_hopes</character>
+      <message>А одной руки вполне достаточно для быстрого и неточного укола. И спрятать ее легко, чтобы не вызывать подозрения.</message>
+    </replic>
+  </dialog>
+
+  <dialog>
+    <name>25</name>
+    <onEvent type="task" status="completed">12:1</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>morgan</character>
+      <message>Обычно медперсонал не пользуется внешними носителями.</message>
+    </replic>
+    <replic>
+      <character>betty_hopes</character>
+      <message>А если это чья-то личная?</message>
+    </replic>
+    <replic>
+      <character>morgan</character>
+      <message>То должна была остаться в раздевалке. Но точно не здесь.</message>
+    </replic>
+  </dialog>
+
+  <dialog>
+    <name>26</name>
+    <onEvent type="quest" status="completed">13</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>betty_hopes</character>
+      <message>Качество аудиозаписи отвратительное. Но кое-что разобрать можно.</message>
+    </replic>
+    <replic>
+      <character>curtis_nurse</character>
+      <message>Возможно, полиции тоже будет интересно узнать об этих махинациях.</message>
+    </replic>
+    <replic>
+      <character>betty_hope</character>
+      <message>Любопытно, чего же ты хочешь за молчание?</message>
+    </replic>
+    <replic>
+      <character>curtis_nurse</character>
+      <message>Моему брату нужны обезболивающие. Выпишите их, и я все забуду.</message>
+    </replic>
+    <replic>
+      <character>betty_hope</character>
+      <message>Какое возмутительное все-таки нахальство. Теперь послушай меня - высунешься куда-то с обвинительной речью - пожалеешь об этом, и сильно.</message>
+    </replic>
+    <replic>
+      <character>curtis_nurse</character>
+      <message>Но… У меня есть доказательства!</message>
+    </replic>
+    <replic>
+      <character>betty_hope</character>
+      <message>Кого они волнуют, девочка? И кого ты решила напугать?</message>
+    </replic>
+  </dialog>
+
+  <dialog>
+    <name>27</name>
+    <onEvent type="quest" status="started">14</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>betty_hope</character>
+      <message>Мороу занимался чем-то незаконным. Если вспомнить то, что я уже видела, это даже не удивляет. Но почему Кертис пришлось идти на такой шаг, если у ее брата действительно болевой синдром?</message>
+    </replic>
+  </dialog>
+
+  <dialog>
+    <name>28</name>
+    <onEvent type="task" status="completed">14:1</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>betty_hope</character>
+      <message>Теперь понятно. Психогенные боли, назначена психотерапия… отказ пациента? Видимо, он не верит в это лечение.</message>
+    </replic>
+  </dialog>
+
+  <dialog>
+    <name>29</name>
+    <onEvent type="quest" status="started">15</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>betty_hope</character>
+      <message>Странно, что мисс Кертис не убедила брата продолжить терапию. Или она тоже в ней сомневается?</message>
+    </replic>
+  </dialog>
+
+  <dialog>
+    <name>30</name>
+    <onEvent type="task" status="started">15:</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>frost</character>
+      <message>Мисс Кертис, поймите, такое лечение - дело длительное, и требует усилий не только медицинского персонала, но и пациента. Поговорите с братом, ему необходимо продолжить курс психотерапии.</message>
+    </replic>
+    <replic>
+      <character>curtis_nurse</character>
+      <message>Вы не понимаете! Как можно... Вы же врач, откуда такая жестокость? Вы просто не хотите ему помочь.</message>
+    </replic>
+    <replic>
+      <character>frost</character>
+      <message>Это не так. Я делаю все, что в моих силах. Но обезболивающее, о котором вы говорили, только усугубит его состояние. Вызовет зависимость. Вы же этого не хотите.</message>
+    </replic>
+    <replic>
+      <character>curtis_nurse</character>
+      <message>Я хочу только, чтобы Майклу стало лучше.</message>
+    </replic>
+  </dialog>
+
+  <dialog>
+    <name>31</name>
+    <onEvent type="task" status="completed">15:1</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>betty_hope</character>
+      <message>Похоже, у мисс Кертис есть зуб на обоих врачей. То-то она так переживала сегодня.</message>
+    </replic>
+  </dialog>
+
+  <dialog>
+    <name>32</name>
+    <onEvent type="task" status="started">16:1</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>betty_hope</character>
+      <message>Мисс! Я понимаю, это не совсем вовремя, но я хотела бы взять у вас интервью. Я хочу опубликовать статью о качестве оказываемых больницей услуг.</message>
+    </replic>
+    <replic>
+      <character>curtis_nurse</character>
+      <message>Но почему у меня?</message>
+    </replic>
+    <replic>
+      <character>betty_hope</character>
+      <message>И как у сотрудника, и как у родственника пациента. Мне кажется, это очень интересный взгляд на проблему.</message>
+    </replic>
+    <replic>
+      <character>curtis_nurse</character>
+      <message>О… Хорошо.</message>
+    </replic>
+  </dialog>
+
+  <dialog>
+    <name>33</name>
+    <onEvent type="task" status="completed">16:1</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>betty_hope</character>
+      <message>Наш разговор будет записан. Вас это устраивает? Отлично. Скажите, как вы оцениваете качество лечения?</message>
+    </replic>
+    <replic>
+      <character>curtis_nurse</character>
+      <message>Наша больница всегда славилась грамотными специалистами. Не приходится сомневаться в их  квалификации.</message>
+    </replic>
+    <replic>
+      <character>betty_hope</character>
+      <message>Тем не менее, у вас возникали конфликты с лечащим врачом вашего брата, верно?</message>
+    </replic>
+    <replic>
+      <character>curtis_nurse</character>
+      <message>Откуда?.. Да, но я не ставлю под сомнение опыт доктора Фрост.</message>
+    </replic>
+    <replic>
+      <character>betty_hope</character>
+      <message>Тем не менее, когда она отказалась выписывать обезболивающее, вы решили обратится к главному врачу, Мороу.</message>
+    </replic>
+    <replic>
+      <character>curtis_nurse</character>
+      <message>Вы ведь знаете уже, зачем спрашивать? Кто вам рассказал?</message>
+    </replic>
+    <replic>
+      <character>betty_hope</character>
+      <message>Уверяю, мне никто не говорил ничего подобного. Но вы ведь знали, что Мороу скрывает противозаконные махинации, производимые под прикрытием больницы?</message>
+    </replic>
+    <replic>
+      <character>curtis_nurse</character>
+      <message>О чем вы?</message>
+    </replic>
+    <replic>
+      <character>betty_hope</character>
+      <message>О том, что заставило однажды взять использованный шприц и наполнить его адреналином. В лаборатории как раз обнаружились перчатки, которые помогли скрыть вашу причастность. Вы знали, что дозы достаточно для остановки сердца - и вы сможете освободиться от давления Мороу, от его угроз. А Фрост… что ж, она заслужила, она никогда вас не слушала. </message>
+    </replic>
+    <replic>
+      <character>curtis_nurse</character>
+      <message>Откуда вы знаете? Зачем вы все это говорите?</message>
+    </replic>
+    <replic>
+      <character>betty_hope</character>
+      <message>Это ведь правда, Обри? Вы хотели шантажировать Мороу, но сами оказались в ловушке.</message>
+    </replic>
+    <replic>
+      <character>curtis_nurse</character>
+      <message>Моему брату нужны  обезболивающие! Фрост не выписывает их уже месяц. Но Мороу сказал, что если я попробую рассказать о нем, меня ждут неприятности. Я не получила ничего, кроме угроз и принуждения к сотрудничеству.</message>
+    </replic>
+    <replic>
+      <character>betty_hope</character>
+      <message>И тогда вы его убили.</message>
+    </replic>
+    <replic>
+      <character>curtis_nurse</character>
+      <message>У меня не было выбора.</message>
+    </replic>
+    <replic>
+      <character>betty_hope</character>
+      <message>Так часто говорят. Спасибо за помощь, мисс Кертис.</message>
+    </replic>
+  </dialog>
+
+  <dialog>
+    <name>34</name>
+    <onEvent type="quest" status="started">17</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>betty_hope</character>
+      <message>Детектив, добрый вечер. Вы так вовремя! Как продвигается расследование?</message>
+    </replic>
+    <replic>
+      <character>karter_detective</character>
+      <message>Ваш интерес неуместен. Полиция не должна предоставлять вам отчеты.</message>
+    </replic>
+    <replic>
+      <character>betty_hope</character>
+      <message>Жаль. А я принесла вам чистосердечное признание убийцы. Но, вероятно, вы и так уже нашли все необходимые доказательства.</message>
+    </replic>
+    <replic>
+      <character>karter_detective</character>
+      <message>Я опасаюсь даже спрашивать, откуда вы его взяли.</message>
+    </replic>
+    <replic>
+      <character>betty_hope</character>
+      <message>Ну, я умею разговаривать с людьми. Услуга за услугу? Отведите меня на место аварии. Я хочу сама осмотреть его.</message>
+    </replic>
+  </dialog>
+
+  <dialog>
+    <name>35</name>
+    <onEvent type="quest" status="completed">17</onEvent>
+    <disposable>true</disposable>
+    <replic>
+      <character>karter_detective</character>
+      <message>Как я и говорил, ни вещей, ни следов. Понятия не имею, что вы хотели… Хоуп? Держитесь. Это просто шок.</message>
+    </replic>
+    <replic>
+      <character>betty_hope</character>
+      <message>Если бы. Но вы правы, детектив. Никаких зацепок.</message>
+    </replic>
+  </dialog>
+  
+</data>

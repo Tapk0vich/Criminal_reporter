@@ -1,0 +1,10 @@
+﻿@window_room_powers
+
+#window_title
+text:Выбери !!!
+
+#help_label
+text:Помощь: {="тут"}
+
+#score_label
+text:Счет: {=$score}

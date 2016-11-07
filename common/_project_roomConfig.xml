@@ -1,0 +1,68 @@
+<data>
+	<!-- прохождение комнат -->
+	<playRoomScore>
+		<!-- цена за клик по одному предмету -->
+		<roomItemsCost>1000</roomItemsCost>
+		<!-- число секторов комбо-панели -->
+		<comboPiecesMax>5</comboPiecesMax>
+		<!-- Время в миллисекундах, за которое один из секторов полностью пропадает -->
+		<comboPieceSpendTime>2500</comboPieceSpendTime>
+	</playRoomScore>
+	
+	<!-- Уровни мастерства в комнатах -->
+	<roomSkillLevel>
+		<name>1</name>
+		<!-- число предметов для поиска -->
+		<numItemsForSearch>3</numItemsForSearch>
+		<!-- очков для завершения уровня -->
+		<pointsToComplete>5000</pointsToComplete>
+		<!-- получаемая награда: выдаваемые очки опыта -->
+		<userExperience>10</userExperience>
+		<!-- цена за вход в комнату -->
+		<enterCost>20</enterCost>
+	</roomSkillLevel>
+<playRoomZoom>
+		<maxZoom>2</maxZoom>
+		<minZoom>1</minZoom>
+		<startZoom>1</startZoom>
+	</playRoomZoom>
+	<roomSkillLevel>
+		<name>2</name>
+		<numItemsForSearch>6</numItemsForSearch>
+		<pointsToComplete>30000</pointsToComplete>
+		<userExperience>10</userExperience>
+		<enterCost>25</enterCost>
+	</roomSkillLevel>
+
+	<roomSkillLevel>
+		<name>3</name>
+		<numItemsForSearch>12</numItemsForSearch>
+		<pointsToComplete>120000</pointsToComplete>
+		<userExperience>10</userExperience>
+		<enterCost>25</enterCost>
+	</roomSkillLevel>
+
+	<roomSkillLevel>
+		<name>4</name>
+		<numItemsForSearch>18</numItemsForSearch>
+		<pointsToComplete>300000</pointsToComplete>
+		<userExperience>10</userExperience>
+		<enterCost>25</enterCost>
+	</roomSkillLevel>
+
+	<roomSkillLevel>
+		<name>5</name>
+		<numItemsForSearch>24</numItemsForSearch>
+		<pointsToComplete>900000</pointsToComplete>
+		<userExperience>10</userExperience>
+		<enterCost>25</enterCost>
+	</roomSkillLevel>
+
+	<roomSkillLevel>
+		<name>6</name>
+		<numItemsForSearch>28</numItemsForSearch>
+		<pointsToComplete>0</pointsToComplete>
+		<userExperience>10</userExperience>
+		<enterCost>25</enterCost>
+	</roomSkillLevel>
+</data>

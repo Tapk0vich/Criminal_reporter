@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<data>
+	<dialog>
+		<name>1</name>
+		<onEvent type="quest" status="started">1</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>edward_redactor</character>
+			<message>Вы уже видели свою статью в номере? Прекрасная работа, смею сказать. Вы для нас настоящая находка, мисс Хоуп. Давно не хватало стоящего журналиста для криминальной колонки и раздела происшествий.</message>
+		</replic>
+		<replic>
+			<character>betty_hope</character>
+			<message>Это не совсем моя специализация, но, думаю, я справлюсь.</message>
+		</replic>
+		<replic>
+			<character>edward_redactor</character>
+			<message>Не сомневаюсь в вас, мисс Хоуп. Думаю, полиция будет рада вам во всем помочь - мэр очень уважает свободу слова и всячески поддерживает наше издание.</message>
+		</replic>
+		<replic>
+			<character>betty_hope</character>
+			<message>Первое задание и новое убийство, на этот раз на пристани. Не хотелось бы к такому привыкать, но эта работа может помочь в поисках Чарльза</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>2</name>
+		<onEvent type="task" status="started">1:1</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>karter_detective</character>
+			<message>И снова здравствуйте, мисс Хоуп. Что на этот раз привело вас на место преступления?</message>
+		</replic>
+		<replic>
+			<character>betty_hope</character>
+			<message>Задание редакции. Вы же не будете против того, чтобы я делала свою работу.</message>
+		</replic>
+		<replic>
+			<character>karter_detective</character>
+			<message>Хорошо. Надеюсь, пользы от вас будет больше, чем вреда.</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>3</name>
+		<onEvent type="task" status="completed">1:1</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>betty_hope</character>
+			<message>На пристани крови нет.</message>
+		</replic>
+		<replic>
+			<character>karter_detective</character>
+			<message>Тело выловили из гавани ближе к берегу. </message>
+		</replic>
+		<replic>
+			<character>betty_hope</character>
+			<message>Но если бы его застрелили на причалах, где-то бы осталась кровь. Получается, его сбросили с яхты.</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>4</name>
+		<onEvent type="quest" status="started">2</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>betty_hope</character>
+			<message>Жертву должен кто-то опознать. Предлагаю спросить в клубе.</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>5</name>
+		<onEvent type="task" status="completed">2:1</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>betty_hope</character>
+			<message>Здравствуйте, мистер Палмер. Вы ведь хозяин клуба, возможно, знаете жертву?</message>
+		</replic>
+		<replic>
+			<character>palmer_yachtowner</character>
+			<message>Увы, да. Робин Деккер, хороший яхтсмен… был. Чемпион последней регаты.</message>
+		</replic>
+		<replic>
+			<character>karter_detective</character>
+			<message>Что-то еще можете о нем сказать?</message>
+		</replic>
+		<replic>
+			<character>palmer_yachtowner</character>
+			<message>Не так хорошо я его знал. Это с Джошем Стоувом они часто встречались на соревнованиях, а я с ним почти не общался.</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>6</name>
+		<onEvent type="quest" status="completed">3</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>betty_hope</character>
+			<message>Что скажешь?</message>
+		</replic>
+		<replic>
+			<character>morgan_butcher</character>
+			<message>Смерть наступила около суток назад вследствии выстрела в грудь из крупного калибра с малой дистанции. В воду тело попало уже после. Это все, что я могу тебе сказать, Хоуп.</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>7</name>
+		<onEvent type="quest" status="started">4</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>betty_hope</character>
+			<message>Сутки назад… Стоит узнать в яхт-клубе, не замечали ли что-то странное вчерашним утром или ночью.</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>8</name>
+		<onEvent type="task" status="completed">4:1</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>palmer_yachtowner</character>
+			<message>Утром я уже был в клубе, все как обычно. А вот охранник говорил, что слышал громкий хлопок, но звуки по воде далеко расходятся, так что мы и не насторожились.</message>
+		</replic>
+		<replic>
+			<character>betty_hope</character>
+			<message>Посторонние на территории клуба были?</message>
+		</replic>
+		<replic>
+			<character>palmer_yachtowner</character>
+			<message>У меня этот охранник пять лет работает. Если он говорит, что никого не пропускал - значит, действительно не видел.</message>
+		</replic>
+		<replic>
+			<character>betty_hope</character>
+			<message>Палмер, вы обмолвились, что жертва общалась с Джошем Стоувом. Он сейчас случаем не на своей яхте?</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>9</name>
+		<onEvent type="task" status="started">5:1</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>karter_detective</character>
+			<message>А вот и кровь, которую ты потеряла.</message>
+		</replic>
+		<replic>
+			<character>betty_hope</character>
+			<message>Похоже, убийство произошло именно здесь.</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>10</name>
+		<onEvent type="task" status="completed">5:1</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>betty_hope</character>
+			<message>Майлз! Смотри, мне кажется, или эта гильза крупного калибра?</message>
+		</replic>
+		<replic>
+			<character>karter_detective</character>
+			<message>Глаз-алмаз. Ничего не трогай, сейчас прибудут криминалисты.</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>11</name>
+		<onEvent type="quest" status="started">6</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>betty_hope</character>
+			<message>Погоди, я не могу, снова все перед глазами плывет. Неужели опять галлюцинация?</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>12</name>
+		<onEvent type="task" status="completed">6:1</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>dekker_case2</character>
+			<message>Нет, погоди! Мы же договорились, все в силе! Ты же не будешь, не станешь...</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>13</name>
+		<onEvent type="quest" status="completed">6</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>karter_detective</character>
+			<message>Хоуп! Кажется, тебя рано выписали. С такой впечатлительностью тебе не стоит бродить по местам преступлений.</message>
+		</replic>
+		<replic>
+			<character>betty_hope</character>
+			<message>Я в порядке, просто не заостряй на этом внимания. Но, кто бы ни был убийцей, жертва не ожидала от него нападения. И сильно перепугалась</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>14</name>
+		<onEvent type="quest" status="completed">7</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>morgan_butcher</character>
+			<message>Это кровь Деккера, без сомнения. Поздравляю, вы нашли место преступления. Какой значительный прогресс.</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>15</name>
+		<onEvent type="quest" status="started">8</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>karter_detective</character>
+			<message> Я вызвал хозяина яхты в клуб. Думаю, нам стоит вместе с ним побеседовать.</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>16</name>
+		<onEvent type="task" status="completed">8:1</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>stouv_sailor</character>
+			<message>Я сделаю вид, что меня не возмущает, что мою яхту без моего ведома оккупировали полицейские. Что вам еще надо?</message>
+		</replic>
+		<replic>
+			<character>Возможно, вы еще не знаете, но Робин Деккер был убит. Мы будем признательны, если вы расскажете, что связывало вас с жертвой.</character>
+		</replic>
+		<replic>
+			<character>stouv_sailor</character>
+			<message>С этим выскочкой? Ничего. Пересекались в клубе, соперничали на регатах.</message>
+		</replic>
+		<replic>
+			<character>karter_detective</character>
+			<message> И кто побеждал?</message>
+		</replic>
+		<replic>
+			<character>stouv_sailor</character>
+			<message>Робин обошел меня на трех последних регатах.</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>17</name>
+		<onEvent type="quest" status="started">9</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>betty_hope</character>
+			<message>Значит, соперники в спорте. Интересно, ограничивалось ли все только этим. Стоит узнать у кого-нибудь из членов клуба больше о взаимоотношениях Деккера и Стоува.</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>18</name>
+		<onEvent type="task" status="started">9:1</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>cori_exgf</character>
+			<message>Отличный же ты друг, Робина еще не похоронили, а ты уже по его карманам шаришь!</message>
+		</replic>
+		<replic>
+			<character>erl_bank</character>
+			<message>Если тут кто-то что-то и ищет, то это ты! Даже интересно, что ты потеряла в его вещах.</message>
+		</replic>
+		<replic>
+			<character>betty_hope</character>
+			<message>Прошу, успокойтесь. Если здесь есть какие-то вещи покойного, их стоит немедленно передать полиции.</message>
+		</replic>
+		<replic>
+			<character>cori_exgf</character>
+			<message>Отлично, забирайте все, мне же спокойней.</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>19</name>
+		<onEvent type="task" status="completed">9:1</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>erl_bank</character>
+			<message>Прошу прощения за эту сцену. Кори была девушкой моего хорошего друга Робина. Она сильно переживает. Если  смогу как-то помочь расследованию, я к вашим услугам.</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>20</name>
+		<onEvent type="quest" status="completed">10</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>morgan_butcher</character>
+			<message>Судя по химическому составу, это типографская краска. Но устойчивей, чем распространенная полиграфическая.</message>
+		</replic>
+		<replic>
+			<character>betty_hope</character>
+			<message>Откуда эти пятна могли взяться на куртке яхтсмена?</message>
+		</replic>
+		<replic>
+			<character>morgan_butcher</character>
+			<message>Он мог попробовать самостоятельно заправить картридж. Другой версии у меня для тебя нет.</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>21</name>
+		<onEvent type="quest" status="started">11</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>betty_hope</character>
+			<message>Раз уж мистер Ниджер любезно предлагал свою помощь, стоит с ним поговорить. Кажется, при клубе есть неплохой ресторанчик - прекрасное место для неформальной беседы.</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>22</name>
+		<onEvent type="task" status="completed">11:1</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>erl_bank</character>
+			<message>Спасибо за приглашение, мисс Хоуп. Приятное место, никогда здесь не обедал.</message>
+		</replic>
+		<replic>
+			<character>betty_hope</character>
+			<message>Разве вы не член клуба?</message>
+		</replic>
+		<replic>
+			<character>erl_bank</character>
+			<message>Я? Что вы, я больше интересуюсь охотой, на яхте катался разве что с Робином.</message>
+		</replic>
+		<replic>
+			<character>betty_hope</character>
+			<message>Но, может, вы знаете, общались ли мистер Деккер и мистер Стоув.</message>
+		</replic>
+		<replic>
+			<character>erl_bank</character>
+			<message>Это сложно назвать общением: они же конкуренты, и периодически грызлись, как собаки. Дня три назад, правда, Стоув звал Робина на свою яхту, выпить бокал вина за примирение.</message>
+		</replic>
+		<replic>
+			<character>betty_hope</character>
+			<message>А что вы искали в кителе Деккера?</message>
+		</replic>
+		<replic>
+			<character>erl_bank</character>
+			<message>Знаете, Робин незадолго до смерти хвастался, что очаровал очередную даму, показывал совместную фотографию. Мне не хотелось бы, чтобы это фото всплыло сейчас и испортило память о моем друге.</message>
+		</replic>
+		<replic>
+			<character>betty_hope</character>
+			<message>И часто Деккер хвастался своими любовными победами? У него же, кажется, была девушка.</message>
+		</replic>
+		<replic>
+			<character>erl_bank</character>
+			<message>Робин всегда был немного легкомысленным, тот еще ветреник, его пассии сменялись очень быстро. Кори первая, кто держался так долго. Не хотелось бы расстраивать ее сейчас.</message>
+		</replic>
+		<replic>
+			<character>betty_hope</character>
+			<message>Могу вас отчасти успокоить - фотографии в кителе не было.</message>
+		</replic>
+		<replic>
+			<character>erl_bank</character>
+			<message>Надеюсь, ее не обнаружат. Прошу прощения, мой перерыв заканчивается, пора обратно в банк. Всегда рад помочь, мисс Хоуп</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>23</name>
+		<onEvent type="quest" status="started">12</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>betty_hope</character>
+			<message>Кто-то в яхт-клубе должен знать больше.</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>24</name>
+		<onEvent type="task" status="started">12:1</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>palmer_yachtowner</character>
+			<message>Да, вы правы,  Стоув с Деккером не ладил.  Знаете, есть те, для кого яхта - просто элемент роскошной жизни и показатель статуса. Респектабельные, но скучные господа. Настоящие яхтсмены, спортсмены - вот где страсть бурлит. Особенно после регаты.</message>
+		</replic>
+		<replic>
+			<character>betty_hope</character>
+			<message> Вам что-то известно?</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>25</name>
+		<onEvent type="task" status="completed">12:1</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>
+		<replic>
+			<character>palmer_yachtoner</character>
+			<message>Это сообщение Стоув оставил сразу после проигрыша. Он потом еще раз звонил, долго исходил ядом, но в последнее время, как мне казалось, успокоился. Но лучше вам все равно это услышать.</message>
+		</replic>
+	</character>
+
+	<dialog>
+		<name>26</name>
+		<onEvent type="quest" status="completed">13:1</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>stouv_sailor</character>
+			<message>Этот ублюдок! Этот золотой мальчик! Клянусь, я однажды убью этого выскочку, утоплю в море!</message>
+		</replic>
+		<replic>
+			<character>karter_detective</character>
+			<message> Голос определенно принадлежит Стоуву, как и номер, с которого оставлено сообщение.</message>
+		</replic>
+		<replic>
+			<character>betty_hope</character>
+			<message>Он очень прямолинеен в своих намерениях, не находишь?</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>27</name>
+		<onEvent type="quest" status="started">14</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>betty_hope</character>
+			<message>Я видела Стоува на причале. Думаю, пора поговорить напрямую.</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>28</name>
+		<onEvent type="task" status="completed">14:1</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>betty_hope</character>
+			<message>Вы не рассказывали полиции, как угрожали убить Деккера. Но можете объяснить это мне.</message>
+		</replic>
+		<replic>
+			<character>stouv_sailor</character>
+			<message>Мисс, послушайте, это было важное соревнование. Я был взвинчен после проигрыша. Я не идиот, чтобы убивать из-за титула, да еще на собственной яхте.</message>
+		</replic>
+		<replic>
+			<character>betty_hope</character>
+			<message>Но вы звали жертву выпить.</message>
+		</replic>
+		<replic>
+			<character>stouv_sailor</character>
+			<message>Да, но в бар, а не сюда. Послушайте, Деккер раздражал меня, он несерьезно относился к спорту, но легко выигрывал. Но я смирился с этим. Что бы ни было на регате, после нее я выиграл лучший приз - Кори. Деккер довел их отношения до разрыва своими изменами.</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>29</name>
+		<onEvent type="quest" status="started">15</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>betty_hope</character>
+			<message>Майлз, мне нужно внимательней осмотреть яхту. Я почти уверена, что мы что-то упустили.</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>30</name>
+		<onEvent type="task" status="completed">15:1</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>betty_hope</character>
+			<message> вряд ли эта сережка принадлежит хозяину яхты. Но, кажется, я догадываюсь, кто ее владелица.</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>31</name>
+		<onEvent type="quest" status="started">16</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>betty_hope</character>
+			<message>Вряд ли эта сережка принадлежит хозяину яхты. Но, кажется, я догадываюсь, кто ее владелица.</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>32</name>
+		<onEvent type="task" status="completed">16:1</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>cori_exgf</character>
+			<message>Благодарю, что сообщили о находке, буду рада, если мне вернут сережку после расследования. Она из авторского комплекта, второго такого не найдешь.</message>
+		</replic>
+		<replic>
+			<character>betty_hope</character>
+			<message>Как вышло, что она оказалась н месте преступления?</message>
+		</replic>
+		<replic>
+			<character>cori_exfg</character>
+			<message>Я была там дня три назад. Шон пригласил, а я не отказалась. Вечер был долгий, мы скоро покинули яхту, а заметила пропажу я только утром.</message>
+		</replic>
+		<replic>
+			<character>betty_hope</character>
+			<message>А где вы были в ночь убийства?</message>
+		</replic>
+		<replic>
+			<character>cori_exgf</character>
+			<message>С Шоном, у него в квартире. Знаете, мисс Хоуп, я ужасно боюсь вида крови, мне от нее дурно. Вообще красный цвет мне кажется слишком жестоким, воплощением животной ярости, стараюсь избегать его даже в картинах. Если бы я хотела убить Робина, то выбрала бы яд.</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>33</name>
+		<onEvent type="quest" status="started">17</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>betty_hope</character>
+			<message>Я упускаю что-то очень важное. Стоит еще раз осмотреть яхт-клуб.</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>34</name>
+		<onEvent type="task" status="completed">17:1</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>betty_hope</character>
+			<message>Права на имя жертвы. Должно быть, бумажник выпал из кителя.</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>35</name>
+		<onEvent type="task" status="completed">18:1</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>Интересно, зачем Деккеру такая крупная сумма наличных, да еще и в потайном кармане? Купюры выглядят совсем новыми...</character>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>36</name>
+		<onEvent type="task" status="completed">19:1</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>karter_detective</character>
+			<message>Это подделка. Очень хорошая, мы с такими уже сталкивались и давно ищем фальшивомонетчика.</message>
+		</replic>
+		<replic>
+			<character>morgan_butcher</character>
+			<message>Вероятно, вы его нашли. Состав краски совпадает с найденными на кителе пятнами.</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>37</name>
+		<onEvent type="quest" status="started">20</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>betty_hope</character>
+			<message>Деккер был застрелен из крупнокалиберного оружия. Кажется, стоит еще раз пригласить на обед нашего банковского сотрудника.</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>38</name>
+		<onEvent type="task" status="completed">20:1</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>erl_bank</character>
+			<message>Чем могу помочь, мисс Хоуп?</message>
+		</replic>
+		<replic>
+			<character>betty_hope</character>
+			<message> Хотела узнать, давно ли вы выезжали на охоту.</message>
+		</replic>
+		<replic>
+			<character>erl_bank</character>
+			<message>Сейчас не сезон, так что можно сказать давно.</message>
+		</replic>
+		<replic>
+			<character>karter_detective</character>
+			<message>Тогда вы не будете против, если полиция осмотрит ваш карабин?</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>39</name>
+		<onEvent type="taks" status="completed">21:1</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>karter_detective</character>
+			<message>Из этого оружия недавно стреляли. И гильза подходит к нему. Похоже, Хоуп, ты нашла орудие убийства.</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>40</name>
+		<onEvent type="quest" status="completed">21</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>betty_hope</character>
+			<message>Кажется, вы мне соврали, и охотились совсем недавно, но не на зверя. Устроили ловушку на чужой яхте и хладнокровно выстрелили в испуганного Деккера. Можете не оправдываться, у нас есть доказательства вашей вины.</message>
+		</replic>
+		<replic>
+			<character>erl_bank</character>
+			<message>Я не хотел его убивать!</message>
+		</replic>
+		<replic>
+			<character>betty_hope</character>
+			<message>Но он ведь просил вас не стрелять. Так почему вы это сделали? И какие договоренности связывали вас с жертвой? Он печатал для вас фальшивые деньги?</message>
+		</replic>
+		<replic>
+			<character>erl_bank</character>
+			<message>И устроил тайник на своей яхте. Я потихоньку сбывал фальшивки. Дела шли неплохо, пока полиция не начала закручивать гайки. Робин запаниковал.</message>
+		</replic>
+		<replic>
+			<character>betty_hope</character>
+			<message>И вы убили его, чтобы он не раскрыл вас полиции. Надеюсь, теперь вас ждет более долгий срок. </message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>41</name>
+		<onEvent type="quest" status="started">22</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>karter_detective</character>
+			<message>Ты отлично справилась, Хоуп. В благодарность я хотел тебе кое-что показать. Присядем на веранде?</message>
+		</replic>
+	</dialog>
+
+	<dialog>
+		<name>42</name>
+		<onEvent type="task" status="completed">22:1</onEvent>
+		<dispossable>true</dispossable>
+		<replic>
+			<character>betty_hope</character>
+			<message>И что же у тебя для меня есть?</message>
+		</replic>
+		<replic>
+			<character>karter_detective</character>
+			<message>Это снимок с камеры наблюдения аэропорта. Никого не узнаешь?</message>
+		</replic>
+		<replic>
+			<character>betty_hope</character>
+			<message>Чарльз? Этот снимок уже у выхода к самолету, верно? Но как это может быть?</message>
+		</replic>
+		<replic>
+			<character>karter_detective</character>
+			<message>Не знаю. Но, возможно, тебе это чем-то поможет.</message>
+		</replic>
+	</dialog>
+	
+
+
+
+
+
+
+
+	

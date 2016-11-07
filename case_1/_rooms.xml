@@ -1,0 +1,68 @@
+ <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+ <data>
+ 	<room>
+ 		<name>room_hosp</name>
+ 		<src>{=$root}/room_hosp.xml</src>
+ 		<unlockCost>0</unlockCost>
+ 		<gameMode>words</gameMode>
+ 		<gameMode>shadows</gameMode>
+ 		<gameMode>night</gameMode>
+ 		<gameMode>twister</gameMode>
+ 		<shadows>{=$root}/x{=$scale_factor}/room_hosp_shadows.zip</shadows>
+ 	</room>
+
+ 	<room>
+ 		<name>room_frost</name>
+ 		<src>{=$root}/room_frost.xml</src>
+ 		<unlockCost>0</unlockCost>
+ 		<gameMode>words</gameMode>
+ 		<gameMode>shadows</gameMode>
+ 		<gameMode>night</gameMode>
+ 		<gameMode>twister</gameMode>
+ 	</room>
+
+ 	<room>
+ 		<name>room_aphoteke</name>
+ 		<src>{=$root}/room_aphoteke.xml</src>
+ 		<unlockCost>0</unlockCost>
+ 		<gameMode>words</gameMode>
+ 		<gameMode>shadows</gameMode>
+ 		<gameMode>night</gameMode>
+ 		<gameMode>twister</gameMode>
+ 		<shadows>{=$root}/x{=$scale_factor}/room_aphoteke_shadows.zip</shadows>
+ 	</room>
+
+ 	<room>
+ 		<name>room_frost_zoom</name>
+ 		<src>{=$root}/room_frost_zoom.xml</src>
+ 		<unlockCost>0</unlockCost>
+ 		<gameMode>words</gameMode>
+ 		<gameMode>shadows</gameMode>
+ 		<gameMode>night</gameMode>
+ 		<gameMode>twister</gameMode>
+ 		<shadows>{=$root}/x{=$scale_factor}/room_frost_zoom_shadows.zip</shadows>
+ 	</room>
+
+ 	<room>
+ 		<name>room_auto</name>
+ 		<src>{=$root}/room_auto.xml</src>
+ 		<unlockCost>0</unlockCost>
+ 		<gameMode>words</gameMode>
+ 		<gameMode>shadows</gameMode>
+ 		<gameMode>night</gameMode>
+ 		<gameMode>twister</gameMode>
+ 	</room>
+
+ 	<room>
+ 		<name>room_security</name>
+ 		<src>{=$root}/room_security.xml</src>
+ 		<unlockCost>0</unlockCost>
+ 		<gameMode>words</gameMode>
+ 		<gameMode>shadows</gameMode>
+ 		<gameMode>night</gameMode>
+ 		<gameMode>twister</gameMode>
+ 	</room>
+
+
+
+ </data>

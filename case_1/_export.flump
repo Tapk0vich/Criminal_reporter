@@ -1,0 +1,23 @@
+{
+  "exportDir": "",
+  "importDir": "",
+  "fileVersion": 2,
+  "exports": [
+    {
+      "format": "JSONZip",
+      "scaleFactors": [
+        1
+      ],
+      "optimize": "Speed",
+      "combine": false,
+      "maxAtlasSize": 2048,
+      "textureBorder": 1,
+      "name": "android",
+      "prettyPrint": true,
+      "quality": "best",
+      "scale": 0.5,
+      "scaleFactorsString": "1",
+      "description": "'android' (JSONZip, 50%, @1x)"
+    }
+  ]
+}

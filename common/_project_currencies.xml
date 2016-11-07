@@ -1,0 +1,14 @@
+<data>
+	<currency>
+		<name>soft</name>
+		<displayName>Soft</displayName>
+		<image>{=$root}/inventory_camera.png</image>
+		<currencyType>common</currencyType>
+	</currency>
+	<currency>
+		<name>hard</name>
+		<displayName>Hard</displayName>
+		<image>{=$root}/inventory_camera.png</image>
+		<currencyType>common</currencyType>
+	</currency>
+</data>

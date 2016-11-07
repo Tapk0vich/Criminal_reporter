@@ -1,0 +1,57 @@
+<data>
+<source>common/{=$platform}/control_quest_task.zip</source><libraryItem class="control" libraryName="control">
+<element name="task_button" libraryName="buttons/bt_task">
+<property name="ui_type"><![CDATA[button]]></property>
+</element></libraryItem>
+<libraryItem class="control_full" libraryName="control_full">
+<element name="button" libraryName="buttons/bt_button">
+<property name="ui_type"><![CDATA[button]]></property>
+</element><text name="description" x="281.05" y="24" width="458.7" height="104.5" lineType="single line" >
+<value name="text"><![CDATA[Описание]]></value>
+<format name="face">Arial</format>
+<format name="size">90</format>
+<format name="fillColor">#000000</format>
+<format name="alignment">center</format>
+<format name="bold">false</format>
+<format name="italic">false</format>
+</text>
+<element name="task" libraryName="control">
+</element></libraryItem>
+<libraryItem libraryName="buttons/bt_task">
+<element name="type" libraryName="task type">
+</element><element name="line" libraryName="bg_task_line">
+</element><element name="image" libraryName="item">
+<property name="ui_type"><![CDATA[image]]></property>
+</element><element name="_out" libraryName="buttons/task n">
+</element><element name="_over" libraryName="buttons/task h">
+</element><element name="_down" libraryName="buttons/task p">
+</element></libraryItem>
+<libraryItem libraryName="buttons/bt_button">
+<element name="_out" libraryName="buttons/bt n">
+</element><element name="_over" libraryName="buttons/bt h">
+</element><element name="_down" libraryName="buttons/bt p">
+</element></libraryItem>
+<libraryItem libraryName="task type">
+<text name="puzzles_cost" x="120" y="0" width="104" height="59.85" lineType="single line" >
+<value name="text"><![CDATA[x2]]></value>
+<format name="face">Arial</format>
+<format name="size">50</format>
+<format name="fillColor">#de3022</format>
+<format name="alignment">center</format>
+<format name="bold">false</format>
+<format name="italic">false</format>
+</text>
+<element name="icon_puzzle" libraryName="icon puzzle">
+</element><element name="task_type_icon" libraryName="task type_icon">
+<property name="ui_type"><![CDATA[icon]]></property>
+</element></libraryItem>
+<libraryItem libraryName="task type_icon">
+<element name="Слой 1" libraryName="icon task zoom">
+</element><element name="Слой 1" libraryName="icon task words">
+</element><element name="Слой 1" libraryName="icon task talk">
+</element><element name="Слой 1" libraryName="icon task shadows">
+</element><element name="Слой 1" libraryName="icon task night">
+</element><element name="Слой 1" libraryName="icon task lab">
+</element><element name="Слой 1" libraryName="icon task game">
+</element></libraryItem>
+</data>

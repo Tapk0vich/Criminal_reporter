@@ -1,0 +1,127 @@
+<data>
+<source>common/{=$platform}/control_topmenu.zip</source><libraryItem class="control" libraryName="Top menu">
+<element name="top-panel" libraryName="top_panel">
+</element></libraryItem>
+<libraryItem libraryName="top_panel">
+<element name="puzzle-panel" libraryName="puzzle_panel">
+<property name="ui_type"><![CDATA[panel]]></property>
+<property name="ui_panel_alignment"><![CDATA[right]]></property>
+</element><element name="main-panel" libraryName="main_panel">
+<property name="ui_type"><![CDATA[scalable_panel]]></property>
+<property name="ui_panel_background_skin"><![CDATA[bg]]></property>
+</element><shape type="rect" name="bounds" x="0.1" y="0" width="2533.5" height="97.5"/></libraryItem>
+<libraryItem libraryName="puzzle_panel">
+<element name="puzzle-counter" libraryName="puzzle_count">
+<property name="ui_type"><![CDATA[label]]></property>
+</element></libraryItem>
+<libraryItem libraryName="main_panel">
+<element name="labels-bar" libraryName="labels_bar">
+<property name="ui_type"><![CDATA[panel]]></property>
+</element><element name="progress-panel" libraryName="progress_panel">
+<property name="ui_type"><![CDATA[scalable_panel]]></property>
+<property name="scalable_panel_scale_type"><![CDATA[fill]]></property>
+</element><element name="bg" libraryName="bg">
+</element></libraryItem>
+<libraryItem libraryName="puzzle_count">
+<element name="puzzle" libraryName="puzzle">
+</element><text name="text" x="142" y="4" width="125.15" height="97.2" lineType="single line" >
+<value name="text"><![CDATA[x2]]></value>
+<format name="face">Arial</format>
+<format name="size">80</format>
+<format name="fillColor">#de3022</format>
+<format name="alignment">left</format>
+<format name="bold">false</format>
+<format name="italic">false</format>
+</text>
+<element name="bg_puzzlecount" libraryName="bg_puzzlecount">
+</element></libraryItem>
+<libraryItem libraryName="labels_bar">
+<element name="coins-bar" libraryName="coins">
+<property name="ui_type"><![CDATA[panel]]></property>
+</element><element name="gold-bar" libraryName="gold">
+<property name="ui_type"><![CDATA[panel]]></property>
+</element><element name="bt_settings" libraryName="buttons/bt_set">
+<property name="ui_type"><![CDATA[button]]></property>
+</element></libraryItem>
+<libraryItem libraryName="progress_panel">
+<element name="level-bar" libraryName="level">
+<property name="ui_type"><![CDATA[scalable_panel]]></property>
+<property name="ui_cut_on_resize"><![CDATA[true]]></property>
+</element><element name="energy-bar" libraryName="energy">
+<property name="ui_type"><![CDATA[scalable_panel]]></property>
+</element></libraryItem>
+<libraryItem libraryName="coins">
+<element name="coins_bt_add" libraryName="buttons/bt_add">
+<property name="ui_type"><![CDATA[button]]></property>
+</element><text name="coins_label" x="88" y="11.05" width="216" height="65.25" lineType="single line" >
+<value name="text"><![CDATA[123456]]></value>
+<format name="face">Arial</format>
+<format name="size">50</format>
+<format name="fillColor">#ffffff</format>
+<format name="alignment">center</format>
+<format name="bold">false</format>
+<format name="italic">false</format>
+</text>
+<element name="coins_icon" libraryName="coins_icon">
+</element></libraryItem>
+<libraryItem libraryName="gold">
+<element name="gold_bt_add" libraryName="buttons/bt_add">
+<property name="ui_type"><![CDATA[button]]></property>
+</element><text name="gold_label" x="88" y="11.05" width="216" height="65.25" lineType="single line" >
+<value name="text"><![CDATA[1234]]></value>
+<format name="face">Arial</format>
+<format name="size">50</format>
+<format name="fillColor">#ffffff</format>
+<format name="alignment">center</format>
+<format name="bold">false</format>
+<format name="italic">false</format>
+</text>
+<element name="gold_icon" libraryName="gold_icon">
+</element></libraryItem>
+<libraryItem libraryName="buttons/bt_set">
+<element name="_out" libraryName="buttons/set n">
+</element><element name="_over" libraryName="buttons/set h">
+</element><element name="_down" libraryName="buttons/set p">
+</element></libraryItem>
+<libraryItem libraryName="level">
+<element name="level_progress" libraryName="progress">
+<property name="ui_type"><![CDATA[progress_bar]]></property>
+</element><element name="level_icon" libraryName="score_icon">
+</element><text name="level_label" x="78" y="11.05" width="77.05" height="65.25" lineType="single line" >
+<value name="text"><![CDATA[99]]></value>
+<format name="face">Arial</format>
+<format name="size">50</format>
+<format name="fillColor">#ffffff</format>
+<format name="alignment">center</format>
+<format name="bold">false</format>
+<format name="italic">false</format>
+</text>
+</libraryItem>
+<libraryItem libraryName="energy">
+<element name="energy_icon" libraryName="energy_icon">
+</element><element name="energy_bt_add" libraryName="buttons/bt_add">
+<property name="ui_type"><![CDATA[button]]></property>
+</element><element name="energy_progress" libraryName="progress">
+<property name="ui_type"><![CDATA[progress_bar]]></property>
+</element></libraryItem>
+<libraryItem libraryName="buttons/bt_add">
+<element name="_out" libraryName="buttons/add n">
+</element><element name="_over" libraryName="buttons/add h">
+</element><element name="_down" libraryName="buttons/add p">
+</element></libraryItem>
+<libraryItem libraryName="progress">
+<text name="100/100" x="15" y="10" width="216" height="65.25" lineType="single line" >
+<value name="text"><![CDATA[100/100]]></value>
+<format name="face">Arial</format>
+<format name="size">50</format>
+<format name="fillColor">#ffffff</format>
+<format name="alignment">center</format>
+<format name="bold">false</format>
+<format name="italic">false</format>
+</text>
+<element name="stat_bg" libraryName="energy_stat_bg">
+</element><element name="stat" libraryName="energy_stat">
+</element></libraryItem>
+<libraryItem libraryName="energy_stat">
+<value name="scalingGrid" left="62" top="22" right="186" bottom="66"/></libraryItem>
+</data>

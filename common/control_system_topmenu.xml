@@ -1,0 +1,15 @@
+<data>
+<source>common/{=$platform}/control_system_topmenu.zip</source><libraryItem class="control" libraryName="control">
+<element name="button_fullscreen" libraryName="buttons/bt_fullscreen">
+<property name="ui_type"><![CDATA[mouse_event_button]]></property>
+<property name="button_trigger"><![CDATA[true]]></property>
+</element></libraryItem>
+<libraryItem libraryName="buttons/bt_fullscreen">
+<element name="_out" libraryName="buttons/set n">
+</element><element name="_over" libraryName="buttons/set h">
+</element><element name="_down" libraryName="buttons/set p">
+</element><element name="_out_checked" libraryName="buttons/gold_icon">
+</element><element name="_over_checked" libraryName="buttons/coins_icon">
+</element><element name="_down_checked" libraryName="buttons/score_icon">
+</element></libraryItem>
+</data>

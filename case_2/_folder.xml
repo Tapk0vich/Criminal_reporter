@@ -1,0 +1,15 @@
+<data>
+	<fileItem type="flump" src="room_*.fla">
+		<exportClip src="Room_Interiere"/>
+	</fileItem>
+	<fileItem type="flump" src="map_*.fla">
+		<exportClip src="Graph_Map" />
+	</fileItem>
+	<fileItem type="flump" src="case_desk.fla">
+		<exportClip src="desk" />
+	</fileItem>
+	<fileItem type="file" src="_project.xml"/>
+	<fileItem type="file" src="i_*.xml"/>
+	<fileItem type="file" src="_text.xml"/>
+	<fileItem type="file" src="*.png"/>
+</data>

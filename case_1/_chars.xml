@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<data>
+ <character>
+	<name>betty_hope</name>
+	<displayName>Betty Hope</displayName>
+	<characterSource>{=$root}/x{=$scale_factor}/character_{=$asset_name}.zip</characterSource>
+  </character>
+  <character>
+	<name>curtis_nurse</name>
+	<displayName>Odri Curtis</displayName>
+	<characterSource>{=$root}/x{=$scale_factor}/character_incognito.zip</characterSource>
+  </character>
+  <character>
+	<name>karter_detective</name>
+	<displayName>Miles Karter</displayName>
+	<characterSource>{=$root}/x{=$scale_factor}/character_{=$asset_name}.zip</characterSource>
+  </character>
+  <character>
+	<name>morgan</name>
+	<displayName>Morgan the autopsist</displayName>
+	<characterSource>{=$root}/x{=$scale_factor}/character_incognito.zip</characterSource>
+  </character>
+  <character>
+	<name>frost</name>
+	<displayName>Dr Frost</displayName>
+	<characterSource>{=$root}/x{=$scale_factor}/character_{=$asset_name}.zip</characterSource>
+  </character>
+  <character>
+	<name>morrou</name>
+	<displayName>Dr Morrou</displayName>
+	<characterSource>{=$root}/x{=$scale_factor}/character_incognito.zip</characterSource>
+  </character>
+</data>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<data>
+    <stat>
+        <name>RoomLampSize</name>
+        <value>100</value>
+    </stat>
+    <powerUP type="lamp">
+        <name>small_lamp</name>
+        <timeSpan>5</timeSpan>
+        <inventoryID>small_lamp</inventoryID>
+        <lockingWith>1</lockingWith>
+        <exclusionGameMode>words</exclusionGameMode>
+        <exclusionGameMode>shadows</exclusionGameMode>
+        <statModf>
+            <statID>RoomLampSize</statID>
+            <statType>add</statType>
+            <statValue>100</statValue>
+            <modifierType>current</modifierType>
+        </statModf>
+    </powerUP>
+    <powerUP type="lamp">
+        <name>big_lamp</name>
+        <timeSpan>10</timeSpan>
+        <inventoryID>big_lamp</inventoryID>
+        <lockingGroup>1</lockingGroup>
+        <exclusionGameMode>words</exclusionGameMode>
+        <exclusionGameMode>shadows</exclusionGameMode>
+        <statModf>
+            <statID>RoomLampSize</statID>
+            <statType>add</statType>
+            <statValue>200</statValue>
+            <modifierType>current</modifierType>           
+        </statModf>
+    </powerUP>
+    <powerUP type="laser">
+        <name>laser</name>
+        <inventoryID>laser</inventoryID>
+    </powerUP>
+
+     
+</data>

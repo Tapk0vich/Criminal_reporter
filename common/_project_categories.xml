@@ -1,0 +1,64 @@
+<data>
+	<category>
+		<name>energy</name>
+		<displayName>Energy</displayName>
+		
+		<item>small_coffee_cup</item>
+		<item>coffee_cup</item>
+		<item>mega_coffee_cup</item>
+		<displayType>inventory</displayType>
+		<displayType>powerup</displayType>
+		<categoryFillRule>
+			<name>items1</name>
+			<itemSlots>10</itemSlots>
+			<filledSlots>2</filledSlots>
+			<offersCount>1</offersCount>
+		</categoryFillRule>
+		<categoryFillRule>
+			<name>items0</name>
+			<itemSlots>10</itemSlots>
+			<filledSlots>3</filledSlots>
+			<offersCount>2</offersCount>
+		</categoryFillRule>
+		<!--<item>coffee_cup</item>
+		<item>super_coffee_cup</item>
+		<item>mega_coffee_cup</item>
+		<item>
+			<name>big_coffee_cup</name>
+			<displayName>big coffee cup</displayName>
+			<description></description>
+			<order>99</order>
+			<image>{=$root}/inventory_camera.png</image>
+			<limit>99</limit>
+			<use>manual</use>
+			<buff></buff>
+		</item>-->
+		<offer>coffe_cup_sale</offer>
+		<offer>mega_coffee_cup_sale</offer>
+	</category>
+<!-- =============================================================      -->
+	<category>
+		<name>decor</name>
+		<displayName>Decor</displayName>
+		<displayType>inventory</displayType>
+		<displayType>powerup</displayType>
+	</category>
+<!--  =============================================================        -->
+	<category>
+		<name>other</name>
+		<displayName>Other</displayName>
+		<displayType>inventory</displayType>
+		<displayType>powerup</displayType>
+	</category>
+
+	<category>
+		<name>powers</name>
+		<item>chronometer</item>
+		<item>magnifier</item>
+		<displayName>Powers</displayName>
+		<displayType>inventory</displayType>
+		<displayType>powerup</displayType>
+	</category>
+
+	
+</data>

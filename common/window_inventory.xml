@@ -1,0 +1,41 @@
+<data>
+<source>common/{=$platform}/window_inventory.zip</source><libraryItem class="window" libraryName="Inventory">
+<element name="main" libraryName="dialog_panel">
+</element><shape type="rect" name="window_bounds" x="0" y="0" width="2530.6" height="1880.65"/></libraryItem>
+<libraryItem libraryName="dialog_panel">
+<element name="inventory-panel" libraryName="name_panel">
+<property name="ui_type"><![CDATA[panel]]></property>
+<property name="ui_panel_horizontal_align"><![CDATA[left]]></property>
+<property name="ui_panel_vertical_align"><![CDATA[top]]></property>
+</element><element name="listbox-panel" libraryName="listboxPanel">
+<property name="ui_type"><![CDATA[panel]]></property>
+<property name="ui_panel_horizontal_align"><![CDATA[center]]></property>
+</element><element name="close-panel" libraryName="closePanel">
+<property name="ui_type"><![CDATA[panel]]></property>
+<property name="ui_panel_horizontal_align"><![CDATA[center]]></property>
+</element></libraryItem>
+<libraryItem libraryName="name_panel">
+<element name="back" libraryName="back_panel">
+</element></libraryItem>
+<libraryItem libraryName="listboxPanel">
+<element name="listBox" libraryName="UIListBox">
+<property name="ui_type"><![CDATA[listbox]]></property>
+<property name="listbox_layout_type"><![CDATA[horizontal]]></property>
+<property name="listbox_layout_gap"><![CDATA[10]]></property>
+<property name="listbox_item_renderer"><![CDATA[inventory_item]]></property>
+</element></libraryItem>
+<libraryItem libraryName="closePanel">
+<element name="bt_close" libraryName="buttons/bt_close">
+<property name="ui_type"><![CDATA[button]]></property>
+<property name="button_signal"><![CDATA[close]]></property>
+</element></libraryItem>
+<libraryItem libraryName="back_panel">
+<value name="scalingGrid" left="325.25" top="45.6" right="975.9" bottom="136.9"/></libraryItem>
+<libraryItem libraryName="UIListBox">
+<shape type="rect" name="listbox_bounds" x="0" y="0" width="2196" height="1078.05"/></libraryItem>
+<libraryItem libraryName="buttons/bt_close">
+<element name="_out" libraryName="buttons/bt close n">
+</element><element name="_over" libraryName="buttons/bt close h">
+</element><element name="_down" libraryName="buttons/bt close p">
+</element></libraryItem>
+</data>

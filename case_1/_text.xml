@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<text>
+  <item id="quest_10@task_10#title">Пройти кабинет врача, найти труп</item>
+  <item id="quest_20@task_10#title">Пройти кабинет в режиме размытия</item>
+  <item id="quest_30@task_10#title">Пройти палату, поговорить с Морганом</item>
+  <item id="quest_40@task_10#title">Провести аутопсию</item>
+  <item id="quest_50@task_10#title">Пройти зум кабинета, найти шприц</item>
+  <item id="quest_60@task_10#title">Исследовать шприц</item>
+  <item id="quest_70@task_10#title">Исследовать отпечатки пальцев</item>
+  <item id="quest_80@task_10#title">Пройти лабораторию</item>
+  <item id="quest_90@task_10#title">Поговорить с фрост в кабинете</item>
+  <item id="quest_100@task_10#title">Найти кадр с видеозаписи в комнате охраны</item>
+  <item id="quest_110@task_10#title">Пройти палату</item>
+  <item id="quest_120@task_10#title">Пройти лабораторию, найти флешку</item>
+  <item id="quest_130@task_10#title">Исследовать флешку</item>
+  <item id="quest_140@task_10#title">Пройти кабинет, найти медицинское дело</item>
+  <item id="quest_150@task_10#title">Пройти лабораторию в режиме размытия</item>
+  <item id="quest_160@task_10#title">Взять интервью у Кертис в палате</item>
+  <item id="quest_170@task_10#title">Встретится с Майлзом на автотрасе</item>
+</text>

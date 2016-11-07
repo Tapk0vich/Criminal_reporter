@@ -1,0 +1,24 @@
+<data>
+<source>case_1/{=$platform}/map_town.zip</source><libraryItem class="Graph_Map" libraryName="Graph_Map">
+<element name="plan" libraryName="plan">
+</element></libraryItem>
+<libraryItem libraryName="plan">
+<element name="pathes" libraryName="placesclip">
+</element><element name="places" libraryName="places">
+</element></libraryItem>
+<libraryItem libraryName="placesclip">
+<element name="room_frost" libraryName="Символ 1">
+</element><element name="room_frost_zoom" libraryName="Символ 1">
+</element><element name="room_aphoteke_zoom" libraryName="Символ 1">
+</element><element name="room_aphoteke" libraryName="Символ 1">
+</element><element name="room_hosp_zoom" libraryName="Символ 1">
+</element></libraryItem>
+<libraryItem libraryName="places">
+<element name="room_hosp" libraryName="rooms/room_1/room_1">
+</element><element name="room_frost" libraryName="rooms/room_1/room_1">
+</element><element name="room_aphoteke" libraryName="rooms/room_1/room_1">
+</element><element name="room_frost_zoom" libraryName="rooms/room_1/room_1">
+</element><element name="room_security" libraryName="rooms/room_1/room_1">
+</element><element name="room_hosp_zoom" libraryName="rooms/room_1/room_1">
+</element></libraryItem>
+</data>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<quest>
+		<name>1</name>
+		<task type="evidence">
+			<name>1</name>
+			<displayName>Неожиданная находка</displayName>
+			<picture>{=$root}/juice.png</picture>
+			<roomID>room_frost</roomID>
+			<specialitem>
+				<name>body_morrou</name>
+				<roomItemID>calendar</roomItemID>
+				<category>item</category>
+				<evidenceID>body_morrou</evidenceID>
+				<chance>0.5</chance>
+				<maxAttempts>2</maxAttempts>
+			</specialitem>
+			<stepShowMeHow type="location">
+				<message>Пройдите комнату</message>
+				<idObjectToShow>room</idObjectToShow>
+			</stepShowMeHow>
+		</task>
+	</quest>
+
+	<quest>
+		<name>2</name>
+		<task type="room">
+			<name>1</name>
+			<displayName>Здесь должен был быть режим размытия</displayName>
+			<picture>{=$root}/juice.png</picture>
+			<roomID>room_frost</roomID>
+			<gameMode>twister</gameMode>
+			<stepShowMeHow type="location">
+				<message>Пройдите комнату</message>
+				<idObjectToShow>room</idObjectToShow>
+			</stepShowMeHow>
+		</task>
+	</quest>
+
+	<quest>
+		<name>3</name>
+		<task type="room">
+			<name>1</name>
+			<displayName>Старый друг</displayName>
+			<picture>{=$root}/juice.png</picture>
+			<roomID>room_hosp</roomID>
+			<stepShowMeHow type="location">
+				<message>Пройдите комнату</message>
+				<idObjectToShow>room</idObjectToShow>
+			</stepShowMeHow>
+		</task>
+	</quest>
+
+	<quest>
+		<name>4</name>
+		<task type="research">
+			<name>1</name>
+			<displayName>Вскрытие</displayName>
+			<picture>{=$root}/juice.png</picture>
+			<target>morrou_autopsy</target>
+			<stepShowMeHow type="collections">
+				<message>Проведите исследование</message>
+				<idObjectToShow>task_button</idObjectToShow>
+			</stepShowMeHow>
+		</task>
+	</quest>
+
+	<quest>
+		<name>5</name>
+		<task type="evidence">
+			<name>1</name>
+			<displayName>Иголка</displayName>
+			<picture>{=$root}/juice.png</picture>
+			<roomID>room_frost_zoom</roomID>
+			<specialitem>
+				<name>syrigne</name>
+				<roomItemID>atlas</roomItemID>
+				<category>item</category>
+				<evidenceID>syrigne</evidenceID>
+				<chance>1</chance>
+				<maxAttempts>5</maxAttempts>
+			</specialitem>
+			<stepShowMeHow type="location">
+				<message>Пройдите комнату</message>
+				<idObjectToShow>room</idObjectToShow>
+			</stepShowMeHow>
+		</task>
+	</quest>
+
+	<quest>
+		<name>6</name>
+		<task type="research">
+			<name>1</name>
+			<displayName>Исследовать жидкость в шприце</displayName>
+			<picture>{=$root}/juice.png</picture>
+			<target>case_1_syrigne</target>
+			<stepShowMeHow type="collections">
+				<message>Проведите исследование</message>
+				<idObjectToShow>task_button</idObjectToShow>
+			</stepShowMeHow>
+		</task>
+	</quest>
+<!--
+	<quest>
+		<name>7</name>
+		<task type="research">
+			<name>1</name>
+			<displayName>X7</displayName>
+			<picture>{=$root}/juice.png</picture>
+		</task>
+	</quest>
+-->
+
+<quest>
+	<name>8</name>
+	<task type="room">
+		<name>1</name>
+		<displayName>Профессиональная этика</displayName>
+		<picture>{=$root}/juice.png</picture>
+		<roomID>room_aphoteke</roomID>
+		<stepShowMeHow type="location">
+			<message>Пройдите комнату</message>
+			<idObjectToShow>room</idObjectToShow>
+		</stepShowMeHow>
+	</task>
+</quest>
+
+<quest>
+	<name>9</name>
+	<task type="room">
+		<name>1</name>
+		<displayName>X9</displayName>
+		<picture>{=$root}/juice.png</picture>
+		<roomID>room_frost</roomID>
+		<stepShowMeHow type="location">
+			<message>Пройдите комнату</message>
+			<idObjectToShow>room</idObjectToShow>
+		</stepShowMeHow>
+	</task>
+</quest>
+
+<quest>
+	<name>10</name>
+	<task type="evidence">
+		<name>1</name>
+		<displayName>X10</displayName>
+		<picture>{=$root}/juice.png</picture>
+		<roomID>room_security</roomID>
+		<specialitem>
+			<name>video</name>
+			<roomItemID>backback</roomItemID>
+			<category>item</category>
+			<evidenceID>video</evidenceID>
+			<chance>0.4</chance>
+			<maxAttempts>2</maxAttempts>
+		</specialitem>
+		<stepShowMeHow type="location">
+			<message>Пройдите комнату</message>
+			<idObjectToShow>room</idObjectToShow>
+		</stepShowMeHow>
+	</task>
+</quest>
+
+<quest>
+	<name>11</name>
+	<task type="room">
+		<name>1</name>
+		<displayName>X11</displayName>
+		<picture>{=$root}/juice.png</picture>
+		<roomID>room_hosp</roomID>
+		<stepShowMeHow type="location">
+			<message>Пройдите комнату</message>
+			<idObjectToShow>room</idObjectToShow>
+		</stepShowMeHow>
+	</task>
+</quest>
+
+<quest>
+	<name>12</name>
+	<task type="evidence">
+		<name>1</name>
+		<displayName>X11</displayName>
+		<picture>{=$root}/juice.png</picture>
+		<roomID>room_aphoteke</roomID>
+		<specialitem>
+			<name>flashdrive</name>
+			<roomItemID>clock</roomItemID>
+			<category>item</category>
+			<evidenceID>flash_drive</evidenceID>
+			<chance>0.5</chance>
+			<maxAttempts>5</maxAttempts>
+		</specialitem>
+		<stepShowMeHow type="location">
+			<message>Пройдите комнату</message>
+			<idObjectToShow>room</idObjectToShow>
+		</stepShowMeHow>
+	</task>
+</quest>
+
+<quest>
+	<name>13</name>
+	<task type="research">
+		<name>1</name>
+		<displayName>X13</displayName>
+		<picture>{=$root}/juice.png</picture>
+		<target>case_1_flashdrive</target>
+		<stepShowMeHow type="collections">
+			<message>Проведите исследование</message>
+			<idObjectToShow>task_button</idObjectToShow>
+		</stepShowMeHow>
+	</task>
+</quest>
+
+<quest>
+	<name>14</name>
+	<task type="evidence">
+		<name>1</name>
+		<displayName>X14</displayName>
+		<picture>{=$root}/juice.png</picture>
+		<roomID>room_frost</roomID>
+		<specialitem>
+			<roomItemID>atlas</roomItemID>
+			<category>item</category>
+			<evidenceID>medical_history</evidenceID>
+			<chance>0.5</chance>
+			<maxAttempts>2</maxAttempts>
+		</specialitem>
+		<stepShowMeHow type="location">
+			<message>Пройдите комнату</message>
+			<idObjectToShow>room</idObjectToShow>
+		</stepShowMeHow>
+	</task>
+</quest>
+
+<quest>
+	<name>15</name>
+	<task type="room">
+		<name>1</name>
+		<displayName>X15</displayName>
+		<picture>{=$root}/juice.png</picture>
+		<roomID>room_aphoteke</roomID>
+		<gameMode>twister</gameMode>
+		<stepShowMeHow type="location">
+			<message>Пройдите комнату</message>
+			<idObjectToShow>room</idObjectToShow>
+		</stepShowMeHow>
+	</task>
+</quest>
+
+<quest>
+	<name>16</name>
+	<task type="research">
+		<name>1</name>
+		<displayName>XFinale</displayName>
+		<picture>{=$root}/juice.png</picture>
+		<target>case_1_finale</target>
+		<stepShowMeHow type="collections">
+			<message>Проведите исследование</message>
+			<idObjectToShow>task_button</idObjectToShow>
+		</stepShowMeHow>
+	</task>
+</quest>
+
+<quest>
+	<name>17</name>
+	<task type="room">
+		<name>1</name>
+		<displayName>Xaftershock</displayName>
+		<picture>{=$root}/juice.png</picture>
+		<roomID>room_auto</roomID>
+		<stepShowMeHow type="location">
+			<message>Пройдите комнату</message>
+			<idObjectToShow>room</idObjectToShow>
+		</stepShowMeHow>
+	</task>
+</quest>
+
+</data>

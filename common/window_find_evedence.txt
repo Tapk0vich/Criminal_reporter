@@ -1,0 +1,10 @@
+﻿@window_room_complete
+
+#window_title
+text:Твоя награда!
+
+#time_label
+text:Время: {="%M:%0$2:0S", $time}
+
+#score_label
+text:Счет: {=$score}

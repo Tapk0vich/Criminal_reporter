@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+  <quest>
+    <name>1</name>
+    <task type="evidence">1
+      <name>1</name>
+      <displayName>X1</displayName>
+      <picture>{=$root}/juice.png</picture>
+      <roomID>room_pier</roomID>
+      <specialitem>
+        <name>123</name>
+        <roomItemID>backback</roomItemID>
+        <category>item</category>
+        <itemID>body_yacht</itemID>
+        <chance>1</chance>
+        <maxAttempts>1</maxAttempts>
+      </specialitem>
+    </task>
+  </quest>
+
+  <quest>
+    <name>2</name>
+    <task type="room">
+      <name>1</name>
+      <displayName>X2</displayName>
+      <roomID>room_yachtclub</roomID>
+      <picture>{=$root}/juice.png</picture>
+      <stepShowMeHow type="location">
+        <message>Пройдите комнату</message>
+        <idObjectToShow>room</idObjectToShow>
+      </stepShowMeHow>
+    </task>
+  </quest>
+
+  <quest>
+    <name>3</name>
+    <task type="research">
+      <name>1</name>
+      <displayName>X3</displayName>
+      <target>case_2_autopsy</target>
+      <stepShowMeHow type="collections">
+        <message>Проведите исследование</message>
+        <idObjectToShow>task_button</idObjectToShow>
+      </stepShowMeHow>
+    </task>
+  </quest>
+
+  <quest>
+    <name>4</name>
+    <task type="room">
+      <name>1</name>
+      <displayName>X4</displayName>
+      <picture>{=$root}/juice.png</picture>
+      <roomID>room_yachtclub</roomID>
+      <stepShowMeHow type="location">
+        <message>Пройдите комнату</message>
+        <idObjectToShow>room</idObjectToShow>
+      </stepShowMeHow>
+    </task>
+  </quest>
+<!--
+  <quest>
+    <name>5</name>
+    <task type="evidence">
+      <name>1</name>
+      <displayName>X5</displayName>
+      <picture>{=$root}/juice.png</picture>
+      <roomID>room_yacht</roomID>
+      <specialitem>
+        <name>123</name>
+        <roomItemID>-</roomItemID>
+        <evidenceId>sleeve</evidenceId>
+        <chance>0.5</chance>
+        <maxAttempts>2</maxAttempts>
+      </specialitem>
+    </task>
+  </quest>
+-->
+      <quest>
+        <name>6</name>
+        <task type="room">
+          <name>1</name>
+          <displayName>X6</displayName>
+          <picture>{=$root}/juice.png</picture>
+          <roomID>room_yacht</roomID>
+          <gameMode>Twister</gameMode>
+          <stepShowMeHow type="location">
+            <message>Пройдите комнату</message>
+            <idObjectToShow>room</idObjectToShow>
+          </stepShowMeHow>
+        </task>
+      </quest>
+<!-- 
+      <quest>
+        <name>7</name>
+        <task type="research">
+          <name>1</name>
+          <displayName>X7</displayName>
+          <picture>{=$root}/juice.png</picture>
+          <target>case_2_bloodsample</target>
+          <stepShowMeHow type="location">
+            <message>Пройдите комнату</message>
+            <idObjectToShow>room</idObjectToShow>
+          </stepShowMeHow>
+        </task>
+      </quest>
+    -->     
+    <quest>
+      <name>8</name>
+      <task type="room">
+        <name>1</name>
+        <displayName>X8</displayName>
+        <picture>{=$root}/juice.png</picture>
+        <roomID>room_pier</roomID>
+        <stepShowMeHow type="location">
+          <message>Пройдите комнату</message>
+          <idObjectToShow>room</idObjectToShow>
+        </stepShowMeHow>
+      </task>
+    </quest>
+<!--
+    <quest>
+      <name>9</name>
+      <task type="evidence">
+        <name>1</name>
+        <displayName>X9</displayName>
+        <picture>{=$root}/juice.png</picture>
+        <roomID>room_yachtclub</roomID>
+        <specialitem>
+          <name>123</name>
+          <roomItemID>-</roomItemID>
+          <evidenceId>paint</evidenceId>
+          <chance>0.5</chance>
+          <maxAttempts>5</maxAttempts>
+        </specialitem>
+      </task>
+    </quest>
+  -->
+
+  <quest>
+    <name>10</name>
+    <task type="research">
+      <name>1</name>
+      <displayName>X10</displayName>
+      <picture>{=$root}/juice.png</picture>
+      <target>case_2_paint</target>
+    </task>
+  </quest>
+
+  <quest>
+    <name>11</name>
+    <task type="room">
+      <name>1</name>
+      <displayName>X11</displayName>
+      <picture>{=$root}/juice.png</picture>
+      <roomID>room_yachtcafe</roomID>
+      <stepShowMeHow type="location">
+        <message>Пройдите комнату</message>
+        <idObjectToShow>room</idObjectToShow>
+      </stepShowMeHow>
+    </task>
+  </quest>
+
+  <quest>
+    <name>12</name>
+    <task type="evidence">
+      <name>1</name>
+      <displayName>X12</displayName>
+      <picture>{=$root}/juice.png</picture>
+      <roomID>room_yachtclub</roomID>
+      <specialitem>
+        <name>123</name>
+        <roomItemID>-</roomItemID>
+        <evidenceId>audio</evidenceId>
+        <chance>0.5</chance>
+        <maxAttempts>2</maxAttempts>
+      </specialitem>
+    </task>
+  </quest>
+
+  <quest>
+    <name>13</name>
+    <task type="research">
+      <name>1</name>
+      <displayName>X13</displayName>
+      <picture>{=$root}/juice.png</picture>
+      <target>case_2_audio</target>
+    </task>
+  </quest>
+
+  <quest>
+    <name>14</name>
+    <task type="room">
+      <name>1</name>
+      <displayName>X14</displayName>
+      <picture>{=$root}/juice.png</picture>
+      <roomID>room_pier</roomID>
+    </task>
+  </quest>
+
+  <quest>
+    <name>15</name>
+    <task type="evidence">
+      <name>1</name>
+      <displayName>X15</displayName>
+      <picture>{=$root}/juice.png</picture>
+      <roomID>room_yacht_zoom</roomID>
+      <specialitem>
+        <name>123</name>
+        <roomItemID>-</roomItemID>
+        <evidenceId>earrings</evidenceId>
+        <chance>0.5</chance>
+        <maxAttempts>2</maxAttempts>
+      </specialitem>
+    </task>
+  </quest>
+
+  <quest>
+    <name>16</name>
+    <task type="room">
+      <name>1</name>
+      <displayName>X16</displayName>
+      <picture>{=$root}/juice.png</picture>
+      <roomID>room_yachtcafe</roomID>
+    </task>
+  </quest>
+
+  <quest>
+    <name>17</name>
+    <task type="evidence">
+      <name>1</name>
+      <displayName>X17</displayName>
+      <picture>{=$root}/juice.png</picture>
+      <roomID>room_yachtclub_zoom</roomID>
+      <specialitem>
+        <name>123</name>
+        <roomItemID>-</roomItemID>
+        <evidenceId>fakemoney</evidenceId>
+        <chance>0.5</chance>
+        <maxAttempts>2</maxAttempts>
+      </specialitem>
+    </task>
+  </quest>
+
+  <quest>
+    <name>19</name>
+    <task type="research">
+      <name>1</name>
+      <displayName>X19</displayName>
+      <picture>{=$root}/juice.png</picture>
+      <target>case_2_fakemoney</target>
+    </task>
+  </quest>
+
+  <quest>
+    <name>20</name>
+    <task type="room">
+      <name>1</name>
+      <displayName>X20</displayName>
+      <picture>{=$root}/juice.png</picture>
+      <roomID>room_yachtcafe</roomID>
+    </task>
+  </quest>
+
+  <quest>
+    <name>21</name>
+    <task type="research">
+      <name>1</name>
+      <displayName>X21</displayName>
+      <picture>{=$root}/juice.png</picture>
+      <target>case_2_sleeve</target>
+    </task>
+  </quest>
+
+  <quest>
+    <name>22</name>
+    <task type="research">
+      <name>1</name>
+      <displayName>X22</displayName>
+      <picture>{=$root}/juice.png</picture>
+      <target>case_2_final</target>
+    </task>
+  </quest>
+
+
+
+
+
+
+
+
+
+
+</data>

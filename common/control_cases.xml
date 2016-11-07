@@ -1,0 +1,13 @@
+<data>
+<source>common/{=$platform}/control_cases.zip</source><libraryItem class="control" libraryName="control">
+<element name="listbox-panel" libraryName="listboxPanel">
+<property name="ui_type"><![CDATA[scalable_panel]]></property>
+</element></libraryItem>
+<libraryItem libraryName="listboxPanel">
+<element name="listbox" libraryName="UIListBox">
+<property name="ui_type"><![CDATA[listbox]]></property>
+<property name="listbox_layout_type"><![CDATA[horizontal]]></property>
+<property name="listbox_layout_gap"><![CDATA[10]]></property>
+<property name="listbox_item_renderer"><![CDATA[inventory_item]]></property>
+</element></libraryItem>
+</data>

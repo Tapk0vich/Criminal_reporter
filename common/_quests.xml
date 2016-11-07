@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+Âîçìîæíûå öåëè êâåñòîâ
+type="room" - ïðîõîæäåíèå êîìíàòû(ïàðàìåòðû: <roomID>%Íàçâàíèå êîìíàòû%</roomID>; <gamemMode>%Íàçâàíèå ðåæèìà%</gameMode>)
+type="puzzle" - ïðîõîæäåíèå ïàççëà(ïàðàìåòðû: <puzzleID>%Íàçâàíèå ïàççëà%</puzzleID>)
+type="research" - èññëåäîâàíèå(ïàðàìåòðû: <duration>%Âðåìÿ â ìèëëèñåêóíäàõ%</duration>)
+type="interview" - çàâåðøèòü äèàëîã(ïàðàìåòð: <dialogID>%Íàçâàíèå äèàëîãà%</dialogID>)
+-->  
+  
+  
+<data>
+	<quest>
+ 	<name>1</name>
+  	<task type="room">
+		<name>1</name>
+		<displayName>ÐÐ°Ð¹Ð´Ð¸Ñ‚Ðµ Ð¼ÐµÐ´Ð¸Ñ†Ð¸Ð½ÑÐºÑƒÑŽ ÐºÐ°Ñ€Ñ‚Ñƒ Ð² ÐºÐ°Ð±Ð¸Ð½ÐµÑ‚Ðµ Ð²Ñ€Ð°Ñ‡Ð°</displayName>
+		<picture>{=$root}/juice.png</picture>
+		<roomID>room_hosp</roomID>
+		<roomMode>twister</roomMode>
+		<stepShowMeHow type="location">
+		   	<message>Пройдите комнату</message>
+		   	<idObjectToShow>room</idObjectToShow>
+		</stepShowMeHow>
+	</task>
+  </quest>
+  <quest>
+  <!--ÐŸÑ€Ð¾Ð¹Ñ‚Ð¸ ÐºÐ°Ð±Ð¸Ð½ÐµÑ‚ Ð² Ñ€ÐµÐ¶Ð¸Ð¼Ðµ "Ð Ð°Ð·Ð¼Ñ‹Ñ‚Ð¸Ðµ"-->
+  	<name>2</name>
+  	<task type="itemsInRoom">
+		<name>1</name>
+		<displayName>ÐŸÑ€Ð¾Ð¹Ð´Ð¸Ñ‚Ðµ ÐºÐ°Ð±Ð¸Ð½ÐµÑ‚ Ð² Ñ€ÐµÐ¶Ð¸Ð¼Ðµ "Ð Ð°Ð·Ð¼Ñ‹Ñ‚Ð¸Ðµ"</displayName>
+		<picture>{=$root}/juice.png</picture>
+		<roomID>room_frost</roomID>
+			<itemInRoom>
+				<name>newspaper_03</name>
+			</itemInRoom>
+			<itemInRoom>
+				<name>envelope_04</name>
+			</itemInRoom>
+			<itemInRoom>
+				<name>record_01</name>
+			</itemInRoom>
+		<stepShowMeHow type="location">
+		   	<message>Пройдите комнату</message>
+		   	<idObjectToShow>room</idObjectToShow>
+		</stepShowMeHow>
+		<!--<stepShowMeHow type="collections">
+		   	<message>Соберите коллекцию</message>
+		   	<idObjectToShow>task_button</idObjectToShow>
+		</stepShowMeHow>-->
+	</task>
+  </quest>
+  
+  
+ 
+  <quest>
+  <!--ÐŸÑ€Ð¾Ð¹Ñ‚Ð¸ ÐºÐ°Ð±Ð¸Ð½ÐµÑ‚, Ð½Ð°Ð¹Ñ‚Ð¸ Ð¼ÐµÐ´Ð¸Ñ†Ð¸Ð½ÑÐºÑƒÑŽ ÐºÐ°Ñ€Ñ‚Ñƒ-->
+  	<name>3</name>
+  	<task type="room">
+		<name>1</name>
+		<displayName>ÐÐ°Ð¹Ð´Ð¸Ñ‚Ðµ Ð¼ÐµÐ´Ð¸Ñ†Ð¸Ð½ÑÐºÑƒÑŽ ÐºÐ°Ñ€Ñ‚Ñƒ Ð² ÐºÐ°Ð±Ð¸Ð½ÐµÑ‚Ðµ Ð²Ñ€Ð°Ñ‡Ð°</displayName>
+		<picture>{=$root}/juice.png</picture>
+		<roomID>room_frost</roomID>
+		<stepShowMeHow type="location">
+		   	<message>Пройдите комнату</message>
+		   	<idObjectToShow>room</idObjectToShow>
+		</stepShowMeHow>
+	</task>
+  </quest>
+  
+  
+  <quest>
+  <!--ÐŸÑ€Ð¾Ð¹Ñ‚Ð¸ ÐºÐ°Ð±Ð¸Ð½ÐµÑ‚ Ð² Ñ€ÐµÐ¶Ð¸Ð¼Ðµ "ÐžÐ±Ñ€Ð°Ð·Ñ‹"-->
+  	<name>5</name>
+  	<task type="room">
+		<name>1</name>
+		<displayName>ÐŸÑ€Ð¾Ð¹Ð´Ð¸Ñ‚Ðµ ÐºÐ°Ð±Ð¸Ð½ÐµÑ‚ Ð² Ñ€ÐµÐ¶Ð¸Ð¼Ðµ "ÐžÐ±Ñ€Ð°Ð·Ñ‹"</displayName>
+		<picture>{=$root}/juice.png</picture>
+		<roomID>room_frost</roomID>
+		<stepShowMeHow type="location">
+		   	<message>Пройдите комнату</message>
+		   	<idObjectToShow>room</idObjectToShow>
+		</stepShowMeHow>
+	</task>
+  </quest>
+  
+  <quest>
+  <!--ÐŸÑ€Ð¾Ð¹Ñ‚Ð¸ Ð¿Ð°Ð»Ð°Ñ‚Ñƒ Ð¸ Ð¾Ñ‚Ð¼ÐµÐ½Ð¸Ñ‚ÑŒ Ñ€ÐµÐ¶Ð¸Ð¼ "Ð Ð°Ð·Ð¼Ñ‹Ñ‚Ð¸Ðµ"-->
+  	<name>6</name>
+  	<task type="room">
+		<name>1</name>
+		<displayName>Ð˜ÑÐ¿Ð¾Ð»ÑŒÐ·ÑƒÐ¹Ñ‚Ðµ Ñ‚Ð°Ð±Ð»ÐµÑ‚ÐºÐ¸ Ð² Ð±Ð¾Ð»ÑŒÐ½Ð¸Ñ‡Ð½Ð¾Ð¹ Ð¿Ð°Ð»Ð°Ñ‚Ðµ</displayName>
+		<picture>{=$root}/juice.png</picture>
+		<roomID>room_hosp</roomID>
+		<stepShowMeHow type="location">
+		   	<message>Пройдите комнату</message>
+		   	<idObjectToShow>room</idObjectToShow>
+		</stepShowMeHow>
+	</task>
+  </quest>
+  
+  <quest>
+  <!--ÐŸÑ€Ð¾Ð¹Ñ‚Ð¸ Ð·ÑƒÐ¼ Ð¿Ð°Ð»Ð°Ñ‚Ñ‹, Ð½Ð°Ð¹Ñ‚Ð¸ Ð¿Ð¾Ñ‡Ñ‚Ð¾Ð²ÑƒÑŽ Ð¾Ñ‚ÐºÑ€Ñ‹Ñ‚ÐºÑƒ-->
+  	<name>7</name>
+  	<task type="room">
+		<name>1</name>
+		<displayName>ÐÐ°Ð¹Ð´Ð¸Ñ‚Ðµ Ð¿Ð¾Ñ‡Ñ‚Ð¾Ð²ÑƒÑŽ Ð¾Ñ‚ÐºÑ€Ñ‹Ñ‚ÐºÑƒ Ð½Ð° ÑÑ‚Ð¾Ð»Ð¸ÐºÐµ Ð² Ð±Ð¾Ð»ÑŒÐ½Ð¸Ñ‡Ð½Ð¾Ð¹ Ð¿Ð°Ð»Ð°Ñ‚Ðµ</displayName>
+		<picture>{=$root}/juice.png</picture>
+		<roomID>room_hosp_zoom</roomID>
+		<stepShowMeHow type="location">
+		   	<message>Пройдите комнату</message>
+		   	<idObjectToShow>room</idObjectToShow>
+		</stepShowMeHow>
+	</task>
+  </quest>
+  
+  <quest>
+  <!--ÐŸÑ€Ð¾Ð¹Ñ‚Ð¸ Ð¿Ð°Ð»Ð°Ñ‚Ñƒ, Ð½Ð°Ð¹Ñ‚Ð¸ Ð¿Ð¾ÑÐ°Ð´Ð¾Ñ‡Ð½Ñ‹Ð¹ Ñ‚Ð°Ð»Ð¾Ð½-->
+  	<name>8</name>
+  	<task type="room">
+		<name>1</name>
+		<displayName>ÐÐ°Ð¹Ð´Ð¸Ñ‚Ðµ Ð¿Ð¾ÑÐ°Ð´Ð¾Ñ‡Ð½Ñ‹Ð¹ Ñ‚Ð°Ð»Ð¾Ð½ Ð² Ð±Ð¾Ð»ÑŒÐ½Ð¸Ñ‡Ð½Ð¾Ð¹ Ð¿Ð°Ð»Ð°Ñ‚Ðµ</displayName>
+		<picture>{=$root}/juice.png</picture>
+		<roomID>room_hosp_zoom</roomID>
+		<stepShowMeHow type="location">
+		   	<message>Пройдите комнату</message>
+		   	<idObjectToShow>room</idObjectToShow>
+		</stepShowMeHow>
+	</task>
+  </quest>
+  
+  <quest>
+  <!--ÐŸÑ€Ð¾Ð¹Ñ‚Ð¸ Ð·ÑƒÐ¼ Ð±Ð¾Ð»ÑŒÐ½Ð¸Ñ‡Ð½Ð¾Ð¹ Ð¿Ð°Ð»Ð°Ñ‚Ñ‹, Ð½Ð°Ð¹Ñ‚Ð¸ Ñ‡ÐµÐº Ñ Ð·Ð°Ð¿Ñ€Ð°Ð²ÐºÐ¸ Ð¸ Ð±Ñ€Ð¾ÑˆÑŽÑ€Ñƒ ÐºÐµÐ¼Ð¿Ð¸Ð½Ð³Ð°-->
+  	<name>9</name>
+  	<task type="room">
+		<name>1</name>
+		<displayName>ÐÐ°Ð¹Ð´Ð¸Ñ‚Ðµ Ñ‡ÐµÐº Ñ Ð·Ð°Ð¿Ñ€Ð°Ð²ÐºÐ¸ Ð¸ Ð±Ñ€Ð¾ÑˆÑŽÑ€Ñƒ ÐºÐµÐ¼Ð¿Ð¸Ð½Ð³Ð° Ð½Ð° ÑÑ‚Ð¾Ð»Ð¸ÐºÐµ Ð² Ð±Ð¾Ð»ÑŒÐ½Ð¸Ñ‡Ð½Ð¾Ð¹ Ð¿Ð°Ð»Ð°Ñ‚Ðµ</displayName>
+		<picture>{=$root}/juice.png</picture>
+		<roomID>room_hosp_zoom</roomID>
+		<stepShowMeHow type="location">
+		   	<message>Пройдите комнату</message>
+		   	<idObjectToShow>room</idObjectToShow>
+		</stepShowMeHow>
+	</task>
+  </quest>
+  
+  <quest>
+  <!--Ð¡Ð¾Ð±Ñ€Ð°Ñ‚ÑŒ ÐºÐ¾Ð»Ð»ÐµÐºÑ†Ð¸ÑŽ ÑƒÐ»Ð¸Ðº-->
+  	<name>10</name>
+  	<task type="room">
+		<name>1</name>
+		<displayName>ÐÐ½Ð°Ð»Ð¸Ð·Ð¸Ñ€ÑƒÐ¹Ñ‚Ðµ ÑƒÐ»Ð¸ÐºÐ¸ "ÐŸÑ€Ð¾Ð¿Ð°Ð²ÑˆÐµÐ³Ð¾ Ð§Ð°Ñ€Ð»ÑŒÐ·Ð°"</displayName>
+		<picture>{=$root}/juice.png</picture>
+		<roomID>room_hosp</roomID>
+		<stepShowMeHow type="location">
+		   	<message>Пройдите комнату</message>
+		   	<idObjectToShow>room</idObjectToShow>
+		</stepShowMeHow>
+	</task>
+  </quest>
+</data>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<evidence>
+		<id>1</id>
+		<name>blood knife1</name>
+		<collectionId>collection1</collectionId>
+		<slot>1</slot>
+		<final>true</final>
+		<item>mega_coffee_cup</item>
+		<quest>3</quest>
+	</evidence>
+	<evidence>
+		<id>1</id>
+		<name>blood knife2</name>
+		<collectionId>collection1</collectionId>
+		<slot>2</slot>
+		<final>true</final>
+		<item>mega_coffee_cup</item>
+		<quest>7</quest>
+	</evidence>
+	<evidence>
+		<id>1</id>
+		<name>blood knife3</name>
+		<collectionId>collection1</collectionId>
+		<slot>3</slot>
+		<final>true</final>
+		<item>mega_coffee_cup</item>
+		<quest>8</quest>
+	</evidence>
+	<evidence>
+		<id>1</id>
+		<name>pen</name>
+		<collectionId>collection1</collectionId>
+		<slot>4</slot>
+		<final>true</final>
+		<item>mega_coffee_cup</item>
+		<quest>9</quest>
+	</evidence>
+	<evidence>
+		<id>1</id>
+		<name>blood knife4</name>
+		<collectionId>collection1</collectionId>
+		<slot>5</slot>
+		<final>true</final>
+		<item>mega_coffee_cup</item>
+		<quest>9</quest>
+	</evidence>
+	<evidence>
+		<id>1</id>
+		<name>pen2</name>
+		<collectionId>collection2</collectionId>
+		<slot>2</slot>
+		<final>false</final>
+		<item>small_coffee_cup</item>
+		<quest>9</quest>
+	</evidence>
+
+
+	<!-- ==========================================Case 1================================================  -->
+
+	<evidence>
+		<id>1</id>
+		<name>body_morrou</name>
+		<collectionId>case_1_collection</collectionId>
+		<slot>1</slot>
+		<final>false</final>
+		<item>small_coffee_cup</item>
+		<quest>1</quest>
+	</evidence>
+
+	<evidence>
+		<id>1</id>
+		<name>syrigne</name>
+		<collectionId>case_1_collection</collectionId>
+		<slot>2</slot>
+		<final>true</final>
+		<item>small_coffe_cup</item>s
+		<quest>5</quest>
+	</evidence>
+
+	<evidence>
+		<id>1</id>
+		<name>flash_drive</name>
+		<collectionId>case_1_collection</collectionId>
+		<slot>3</slot>
+		<final>false</final>
+		<item>small_coffe_cup</item>
+		<quest>12</quest>
+	</evidence>
+
+	<evidence>
+		<id>1</id>
+		<name>video</name>
+		<collectionId>case_1_collection</collectionId>
+		<slot>4</slot>
+		<final>false</final>
+		<item>small_coffe_cup</item>
+		<quest>10</quest>
+	</evidence>
+
+	<evidence>
+		<id>1</id>
+		<name>medical_history</name>
+		<collectionId>case_1_collection</collectionId>
+		<slot>5</slot>
+		<final>false</final>
+		<item>small_coffe_cup</item>
+		<quest>14</quest>
+	</evidence>
+
+	<!-- ========================================Case 2======================================================== -->
+
+	<evidence>
+		<id>1</id>
+		<name>audio</name>
+		<collectionId>case_2_collection</collectionId>
+		<slot>1</slot>
+		<final>false</final>
+		<item>small_coffe_cup</item>
+		<quest>12</quest>
+	</evidence>
+
+	<evidence>
+		<id>1</id>
+		<name>fakemoney</name>
+		<collectionId>case_2_collection</collectionId>
+		<slot>2</slot>
+		<final>false</final>
+		<item>small_coffe_cup</item>
+		<quest>17</quest>
+	</evidence>
+
+	<evidence>
+		<id>1</id>
+		<name>sleeve</name>
+		<collectionId>case_2_collection</collectionId>
+		<slot>3</slot>
+		<final>false</final>
+		<item>small_coffe_cup</item>
+		<quest>5</quest>
+	</evidence>
+
+	<evidence>
+		<id>1</id>
+		<name>earrings</name>
+		<collectionId>case_2_collection</collectionId>
+		<slot>4</slot>
+		<final>false</final>
+		<item>small_coffe_cup</item>
+		<quest>15</quest>
+	</evidence>
+
+	<evidence>
+		<id>1</id>
+		<name>paint</name>
+		<collectionId>case_2_collection</collectionId>
+		<slot>5</slot>
+		<final>false</final>
+		<item>small_coffe_cup</item>
+		<quest>9</quest>
+	</evidence>
+
+	<evidence>
+		<id>1</id>
+		<name>body_yacht</name>
+		<collectionId>case_2_collection</collectionId>
+		<slot>6</slot>
+		<final>false</final>
+		<item>small_coffe_cup</item>
+		<quest>1</quest>
+	</evidence>
+
+	
+   
+
+</data>
