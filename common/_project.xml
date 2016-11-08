@@ -14,6 +14,7 @@
   <include>{=$root}/_project_collections.xml</include>
   <include>{=$root}/_project_evidence.xml</include>
    <include>{=$root}/_tutorial.xml</include>
+   <include>{=$root}/project_researches.xml</include>
   <case>
     <name>case_1</name>
     <displayName>Case one</displayName>

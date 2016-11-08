@@ -3,7 +3,7 @@
 <data>
   <varible>
     <name>root</name>
-	<value>case_1</value>
+    <value>case_1</value>
   </varible>
   
   <defaultPuzzle>puzzle_main</defaultPuzzle>
@@ -13,31 +13,32 @@
   	<name>default</name>
     <src>{=$root}/map_town.xml</src>
   </town>
-
-  <!-- Флешка с рабочим столом, на котором изображен прогресс -->
-  <desk>
-  	<name>default</name>
-    <src>{=$root}/case_desk.xml</src>
-  </desk>
   
   <!--Комнаты-->
   <include>{=$root}/_rooms.xml</include>
 
-   <!--Обозначение хогов на карте-->
+  <!--Обозначение хогов на карте-->
   <include>{=$root}/_locations.xml</include>
-  
 
-   <!--Квесты-->
+  <!--Квесты-->
   <include>{=$root}/_quests.xml</include>
 
-
-    <!--Персонажи-->
+  <!--Персонажи-->
   <include>{=$root}/_chars.xml</include>
- 
 
   <!--Предметы-->
   <include>{=$root}/_items.xml</include>
- 
+
   <!--Диалоги-->
   <include>{=$root}/_dialogs.xml</include> 
+
+  <!--Доказательства -->
+  <include>{=$root}/_evidences.xml</include>
+
+  <!--Исследования -->
+  <include>{=$root}/_researches.xml</include>
+
+  <!-- Коллекции -->
+  <include>{=$root}/_collections.xml</include>
+
 </data>
